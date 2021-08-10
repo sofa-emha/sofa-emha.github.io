@@ -22,23 +22,57 @@ window.onload = function(){
             nan = validasi.includes(NaN); nisn = validasi.join('');
 
             if (nan) {
-                console.log('MENGANDUNG NAN');
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Terjadi Kesalahan',
+                    text: 'NISN hanya menggunakan angka!'
+                });
             }
             else {
                 if (nisn.length != 10) {
                     if (nisn.length < 10) {
-                        console.log('KURANG DARI 10 ANGKA');
+                        v = 10 - nisn.length;
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Terjadi Kesalahan',
+                            text: 'NISN anda kurang '+v+' angka!'
+                        });
                     }
                     if (nisn.length > 10) {
-                        console.log('LEBIH DARI 10 ANGKA');
+                        v = nisn.length - 10;
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Terjadi Kesalahan',
+                            text: 'NISN anda terlalu panjang '+v+' angka!'
+                        });
                     }
                 }
                 else {
-                    alert('BERHASIL')
+                    if (nisn in database) {
+                        Swal.fire({
+                            icon: 'success',
+                            title: 'Data Anda Sudah Tersimpan',
+                            // text: ''
+                        });
+                        // database[nisn].Nama
+                        // database[nisn].Tingkat
+                        // database[nisn].Username
+                        // database[nisn].Password
+                    } else {
+                        Swal.fire({
+                            icon: 'error',
+                            title: 'Terjadi Kesalahan',
+                            text: 'NISN tidak ditemukan!'
+                        });
+                    }
                 }
             }
         } else {
-            console.log('JANGAN BIARKAN KOSONG');
+            Swal.fire({
+                icon: 'error',
+                title: 'Terjadi Kesalahan',
+                text: 'Anda belum menulis NISN!'
+            });
         }
     };
 };
