@@ -3,6 +3,8 @@ window.onload = function () {
 	const
 	validate = v => v.map(Number),
 	input = document.querySelector('#nisn'),
+	nav = document.querySelector('.nav'),
+	attr = document.querySelector('.attr'),
 	send = document.querySelector('.send'),
 	clear = document.querySelector('.clear'),
 	icon = document.querySelector('.icon'),
@@ -11,7 +13,9 @@ window.onload = function () {
 	// Bagian: Fungsi
 	icon.onclick = function () {
 		cari.classList.toggle("aktif");
+		nav.classList.toggle("aktif");
 		send.classList.toggle("aktif");
+		attr.classList.toggle("aktif");
 	};
 	clear.onclick = function () {
 		input.value = '';
@@ -25,7 +29,8 @@ window.onload = function () {
 				Swal.fire({
 					icon: 'error',
 					title: 'Terjadi Kesalahan',
-					text: 'NISN hanya menggunakan angka!'
+					text: 'NISN hanya menggunakan angka!',
+					confirmButtonColor: '#297eff'
 				});
 			}
 			else {
@@ -35,7 +40,8 @@ window.onload = function () {
 						Swal.fire({
 							icon: 'error',
 							title: 'Terjadi Kesalahan',
-							text: 'NISN anda kurang ' + v + ' angka!'
+							text: 'NISN anda kurang ' + v + ' angka!',
+							confirmButtonColor: '#297eff'
 						});
 					}
 					if (nisn.length > 10) {
@@ -43,26 +49,29 @@ window.onload = function () {
 						Swal.fire({
 							icon: 'error',
 							title: 'Terjadi Kesalahan',
-							text: 'NISN anda terlalu panjang ' + v + ' angka!'
+							text: 'NISN anda terlalu panjang ' + v + ' angka!',
+							confirmButtonColor: '#297eff'
 						});
 					}
 				}
 				else {
 					if (nisn in database) {
 						Swal.fire({
-							icon: 'success',
-							title: 'Data Anda Sudah Tersimpan',
-							// text: ''
+							showConfirmButton: false,
+							html:
+								'<ul>'+
+									'<li>'+database[nisn].Nama+'</li>'+
+									'<li>'+database[nisn].Tingkat+'</li>'+
+									'<li>'+database[nisn].Username+'</li>'+
+									'<li>'+database[nisn].Password+'</li>'+
+								'</ul>'
 						});
-						// database[nisn].Nama
-						// database[nisn].Tingkat
-						// database[nisn].Username
-						// database[nisn].Password
 					} else {
 						Swal.fire({
 							icon: 'error',
 							title: 'Terjadi Kesalahan',
-							text: 'NISN tidak ditemukan!'
+							text: 'NISN tidak ditemukan!',
+							confirmButtonColor: '#297eff'
 						});
 					}
 				}
@@ -71,7 +80,8 @@ window.onload = function () {
 			Swal.fire({
 				icon: 'error',
 				title: 'Terjadi Kesalahan',
-				text: 'Anda belum menulis NISN!'
+				text: 'Anda belum menulis NISN!',
+				confirmButtonColor: '#297eff'
 			});
 		}
 	};

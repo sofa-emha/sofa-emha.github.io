@@ -1,11 +1,11 @@
 /* 
-Bagian: Import
-*/
+	Bagian: Import
+ */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /* 
-Bagian: Kerangka Utama
-*/
+	Bagian: Kerangka Utama
+ */
 * {
   margin: 0;
   padding: 0;
@@ -21,12 +21,26 @@ body {
   background: #297eff;
 }
 
+body.swal2-shown > [aria-hidden="true"] {
+  filter: blur(3px);
+}
+
+body > * {
+  transition: 0.1s filter linear;
+}
+
 /* 
-		Bagian: Navigasi
-		*/
+	Bagian: Navigasi
+ */
 .nav {
+  opacity: 0;
   position: fixed;
-  top: 20px;
+  top: 30px;
+  transition: 0.5s;
+}
+
+.nav.aktif {
+  opacity: 1;
 }
 
 .nav>ul {
@@ -40,12 +54,17 @@ body {
 
 .nav>ul>li>a {
   color: #fff;
+  cursor: default;
   text-decoration: none;
 }
 
+.nav.aktif>ul>li>a {
+  cursor: pointer;
+}
+
 /* 
-						Bagian: Cari Data
-						*/
+	Bagian: Cari Data
+ */
 .cari {
   position: relative;
   width: 60px;
@@ -53,7 +72,7 @@ body {
   background: #fff;
   border-radius: 60px;
   transition: 0.5s;
-  box-shadow: 0 0 0 5px #2573ef;
+  box-shadow: none;
   overflow: hidden;
   z-index: 1;
 }
@@ -84,15 +103,26 @@ body {
   height: 15px;
   border: 3px solid #287dfc;
   border-radius: 50%;
-  transform: translate(-4px, -4px);
+	transition: 0.5s;
 }
 
 .cari .icon::after {
   content: '';
   position: absolute;
+	border: 3px solid #fff;
   width: 3px;
   height: 12px;
   background: #287dfc;
+  transform: translateY(-9px);
+	transition: 0.5s;
+}
+
+.cari.aktif .icon::before {
+  transform: translate(-4px, -4px);
+}
+
+.cari.aktif .icon::after {
+	border: none;
   transform: translate(6px, 6px) rotate(-45deg);
 }
 
@@ -118,9 +148,9 @@ body {
   padding: 10px 0;
 }
 
-/* 
-													Bagian: Penghapus Input Data
-													*/
+/*
+	Bagian: Penghapus Input Data
+ */
 .clear {
   position: absolute;
   top: 50%;
@@ -153,8 +183,8 @@ body {
 }
 
 /* 
-																Bagian: Pengiriman Data
-																*/
+	Bagian: Pengiriman Data
+ */
 .send {
   position: absolute;
   display: flex;
@@ -188,12 +218,20 @@ body {
 }
 
 /* 
-																					Bagian: Atribusi
-																					*/
+	Bagian: Atribusi
+ */
 .attr {
+	cursor: default;
+  opacity: 0;
   position: absolute;
   display: flex;
   justify-content: center;
   bottom: 20px;
   color: #fff;
+  transition: 0.5s;
+}
+
+.attr.aktif {
+	cursor: text;
+  opacity: 1;
 }
