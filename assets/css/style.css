@@ -34,7 +34,7 @@ body > * {
  */
 .nav {
   opacity: 0;
-  position: fixed;
+  position: absolute;
   top: 30px;
   transition: 0.5s;
 }
