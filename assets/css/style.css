@@ -63,6 +63,27 @@ body > * {
 }
 
 /* 
+	Bagian: Header
+ */
+.header {
+	opacity: 0;
+	cursor: default;
+	position: absolute;
+	color: #fff;
+	top: 20%;
+	transition: 0.5s;
+}
+.header > h2,
+.header > h3,
+.header > h4 {
+	text-align: center;
+}
+.header.aktif {
+	cursor: text;
+	opacity: 1;
+}
+
+/* 
 	Bagian: Cari Data
  */
 .cari {
