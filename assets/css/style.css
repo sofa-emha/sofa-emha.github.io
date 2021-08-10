@@ -1,161 +1,199 @@
 /* 
-    Bagian: Import
+Bagian: Import
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 /* 
-    Bagian: Kerangka Utama
+Bagian: Kerangka Utama
 */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background: #297eff;}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #297eff;
+}
 
 /* 
-    Bagian: Navigasi
-*/
+		Bagian: Navigasi
+		*/
 .nav {
-    position: fixed;
-    top: 20px;}
-.nav > ul {
-    list-style: none;
-    display: flex;}
-.nav > ul > li {
-    padding: 0 10px;}
-.nav > ul > li > a {
-    color: #fff;
-    text-decoration: none;}
+  position: fixed;
+  top: 20px;
+}
+
+.nav>ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav>ul>li {
+  padding: 0 20px;
+}
+
+.nav>ul>li>a {
+  color: #fff;
+  text-decoration: none;
+}
 
 /* 
-    Bagian: Cari Data
-*/
-.cari { 
-    position: relative;
-    width: 60px;
-    height: 60px;
-    background: #fff;
-    border-radius: 60px;
-    transition: 0.5s;
-    box-shadow: 0 0 0 5px #2573ef;
-    overflow: hidden;
-    z-index: 1;}
+						Bagian: Cari Data
+						*/
+.cari {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 60px;
+  transition: 0.5s;
+  box-shadow: 0 0 0 5px #2573ef;
+  overflow: hidden;
+  z-index: 1;
+}
+
 .cari.aktif {
-    width: 360px;}
+  width: 360px;
+}
+
 .cari .icon {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 60px;
-    height: 60px;
-    background: #fff;
-    border-radius: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 5;
-    cursor: pointer;}
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  cursor: pointer;
+}
+
 .cari .icon::before {
-    content: '';
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    border: 3px solid #287dfc;
-    border-radius: 50%;
-    transform: translate(-4px,-4px);}
+  content: '';
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border: 3px solid #287dfc;
+  border-radius: 50%;
+  transform: translate(-4px, -4px);
+}
+
 .cari .icon::after {
-    content: '';
-    position: absolute;
-    width: 3px;
-    height: 12px;
-    background: #287dfc;
-    transform: translate(6px,6px) rotate(-45deg);}
+  content: '';
+  position: absolute;
+  width: 3px;
+  height: 12px;
+  background: #287dfc;
+  transform: translate(6px, 6px) rotate(-45deg);
+}
+
 .cari .input {
-    position: relative;
-    width: 300px;
-    height: 60px;
-    left: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;}
+  position: relative;
+  width: 300px;
+  height: 60px;
+  left: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .cari .input input {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 85%;
-    height: 100%;
-    border: none;
-    outline: none;
-    font-size: 20px;
-    padding: 10px 0;}
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 85%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  padding: 10px 0;
+}
 
 /* 
-    Bagian: Penghapus Input Data
-*/
+													Bagian: Penghapus Input Data
+													*/
 .clear {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 15px;
-    height: 15px;
-    right: 15px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;}
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 15px;
+  right: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .clear::before {
-    content: '';
-    position: absolute;
-    width: 1px;
-    height: 15px;
-    background: #666;
-    transform: rotate(45deg);}
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  background: #666;
+  transform: rotate(45deg);
+}
+
 .clear::after {
-    content: '';
-    position: absolute;
-    width: 1px;
-    height: 15px;
-    background: #666;
-    transform: rotate(-45deg);}
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 15px;
+  background: #666;
+  transform: rotate(-45deg);
+}
 
 /* 
-    Bagian: Pengiriman Data
-*/
+																Bagian: Pengiriman Data
+																*/
 .send {
-    position: absolute;
-    display: flex;
-    transition: 0.5s;}
+  position: absolute;
+  display: flex;
+  transition: 0.5s;
+}
+
 .send.aktif {
-    transform: translateY(60px);}
+  transform: translateY(60px);
+}
+
 .send .btn {
-    border: none;
-    background: transparent;
-    color: #297eff;
-    transition: 0.5s;}
+  border: none;
+  background: transparent;
+  color: #297eff;
+  transition: 0.5s;
+}
+
 .send.aktif .btn {
-    border: 2px solid #fff;
-    border-radius: 15px;
-    padding: 5px 30px;
-    font-weight: 600;
-    color: #fff;
-    transition: 0.5s;}
+  border: 2px solid #fff;
+  border-radius: 15px;
+  padding: 5px 30px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.5s;
+}
+
 .send.aktif .btn:hover {
-    border: 2px solid #fff;
-    background: #fff;
-    color: #297eff;}
+  border: 2px solid #fff;
+  background: #fff;
+  color: #297eff;
+}
 
 /* 
-    Bagian: Atribusi
-*/
+																					Bagian: Atribusi
+																					*/
 .attr {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    bottom: 20px;
-    color: #fff;}
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 20px;
+  color: #fff;
+}
