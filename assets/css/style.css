@@ -3,6 +3,7 @@ Bagian: Import
 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap');
 
 /* 
 Bagian: Kerangka Utama
@@ -29,6 +30,23 @@ body.swal2-shown > [aria-hidden="true"] {
 body > * {
 	transition: 0.1s filter linear;
 }
+code {
+	background: #fff;
+	color: #0352c9;
+	font-family: 'Fira Mono', monospace;
+}
+div.justify {
+	text-align:justify
+}
+.swal-img-tutorial {
+	display:block;
+	margin:auto;
+	max-width: 100%;
+	height: auto;
+}
+.tahap5 > tbody > tr > td:not(:last-child) {
+	width: 20px !important;
+}
 
 /* 
 Bagian: Navigasi
@@ -53,13 +71,13 @@ Bagian: Navigasi
 	padding: 0 20px;
 }
 
-.nav>ul>li>a {
+.nav>ul>li>.anchor {
 	color: #fff;
 	cursor: default;
 	text-decoration: none;
 }
 
-.nav.aktif>ul>li>a {
+.nav.aktif>ul>li>.anchor {
 	cursor: pointer;
 }
 
@@ -328,6 +346,9 @@ Bagian: Kartu
 	}
 	.nisn {
 		margin: 0 auto 25px !important;
+	}
+	.kartu::before {
+		background: transparent;
 	}
 }
 
