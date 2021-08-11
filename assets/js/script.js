@@ -82,7 +82,7 @@ window.onload = function () {
 
 									<div class="data-siswa nm">
 										<span>Nama Siswa</span>
-										<div class="ket nm-text">${Nama.toUpperCase()}</div>
+										<div class="ket nm-text">${Nama.toLowerCase()}</div>
 									</div>
 
 									<div class="data-siswa usrnm">
