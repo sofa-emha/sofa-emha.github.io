@@ -1,15 +1,15 @@
 window.onload = function () {
 	// Bagian: Variabel
 	const
-	validate = v => v.map(Number),
-	header = document.querySelector('.header'),
-	input = document.querySelector('#nisn'),
-	nav = document.querySelector('.nav'),
-	attr = document.querySelector('.attr'),
-	send = document.querySelector('.send'),
-	clear = document.querySelector('.clear'),
-	icon = document.querySelector('.icon'),
-	cari = document.querySelector('.cari');
+		validate = v => v.map(Number),
+		header = document.querySelector('.header'),
+		input = document.querySelector('#nisn'),
+		nav = document.querySelector('.nav'),
+		attr = document.querySelector('.attr'),
+		send = document.querySelector('.send'),
+		clear = document.querySelector('.clear'),
+		icon = document.querySelector('.icon'),
+		cari = document.querySelector('.cari');
 	
 	// Bagian: Fungsi
 	icon.onclick = function () {
