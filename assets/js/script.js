@@ -55,15 +55,59 @@ window.onload = function () {
 				}
 				else {
 					if (nisn in database) {
+						let 
+							Nama = database[nisn].Nama,
+							Tingkat = database[nisn].Tingkat,
+							Username = database[nisn].Username,
+							Password = database[nisn].Password,
+							v = parseInt(Tingkat) - 9, a = [];
+
+						for (let i = 0; i < v; i++) {
+							a.push(`<i class="material-icons">star</i>`)
+						}
+
 						Swal.fire({
+							padding: '20px',
+							width: '600px',
+							showClass: {
+								popup: 'cover'
+							},
 							showConfirmButton: false,
 							html:
-								'<ul>'+
-									'<li>'+database[nisn].Nama+'</li>'+
-									'<li>'+database[nisn].Tingkat+'</li>'+
-									'<li>'+database[nisn].Username+'</li>'+
-									'<li>'+database[nisn].Password+'</li>'+
-								'</ul>'
+								`<div class="kartu">
+
+									<h2 class="nisn">${nisn}</h2>
+
+									<img class="logo" src="assets/img/logo.png">
+
+									<div class="data-siswa nm">
+										<span>Nama Siswa</span>
+										<div class="ket nm-text">${Nama.toUpperCase()}</div>
+									</div>
+
+									<div class="data-siswa usrnm">
+										<span>Username</span>
+										<div class="ket usrnm-text">${Username}</div>
+									</div>
+
+									<div class="grup-tag">
+
+										<div class="data-siswa psswrd">
+											<span>Password</span>
+											<div class="ket psswrd-text">${Password}</div>
+										</div>
+
+										<div class="data-siswa tngkt">
+											<span>Tingkat</span>
+											<div class="ket tngkt-text">${Tingkat}</div>
+											<div class="ket star-text">
+												${a.join("\n")}
+											</div>
+										</div>
+
+									</div>
+
+								</div>`
 						});
 					} else {
 						Swal.fire({
