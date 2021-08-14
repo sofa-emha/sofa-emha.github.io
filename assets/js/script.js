@@ -21,7 +21,7 @@ window.onload = function () {
 			text: 'Mencari Data',
 			allowOutsideClick: false,
 			allowEscapeKey: false,
-			didOpen: () => {Swal.showLoading()}
+			didOpen: () => { Swal.showLoading() }
 		}),
 		Swal_warning = Swal.mixin({
 			icon: 'warning',
@@ -34,14 +34,14 @@ window.onload = function () {
 		Swal_TutorialSteps = Swal.mixin({
 			allowOutsideClick: false,
 			allowEscapeKey: false,
-			progressSteps: ['1','2','3','4','5'],
+			progressSteps: ['1', '2', '3', '4', '5'],
 			confirmButtonColor: '#297eff',
 			showDenyButton: true,
 			reverseButtons: true,
 			confirmButtonText: 'Selanjutnya',
 			denyButtonText: 'Tutup'
 		});
-	
+
 	// Bagian: Fungsi
 	tentang.onclick = function () {
 		window.open('https://sofa.my.id/', '_blank');
@@ -64,26 +64,26 @@ window.onload = function () {
 			currentProgressStep: 0,
 			title: 'Tahap 1',
 			html: `<div class="justify">Kunjungi situs Google Mail, atau <a href="https://mail.google.com" target="_blank" style="text-decoration:none">tekan disini</a>.</div>`
-		}).then((v)=>{
-			if(v.isDenied || v.isDismissed){Swal.close()} else {
+		}).then((v) => {
+			if (v.isDenied || v.isDismissed) { Swal.close() } else {
 				Swal_TutorialSteps.fire({
 					currentProgressStep: 1,
 					title: 'Tahap 2',
 					html: `<div class="justify">Masuk menggunakan e-mail dengan format <code>username@smk.belajar.id</code>. Anda bisa mendapatkan <code>username</code> dengan mengetik NISN disitus ini pada laman Cari Data, atau <a href="/" style="text-decoration:none">tekan disini</a>. Sebagai contoh, username saya <code>sofahaeta82@smk.belajar.id</code><br><br><img src="assets/img/tahap2.jpg" class="swal-img-tutorial"></div>`
-				}).then((v)=>{
-					if(v.isDenied || v.isDismissed){Swal.close()} else {
+				}).then((v) => {
+					if (v.isDenied || v.isDismissed) { Swal.close() } else {
 						Swal_TutorialSteps.fire({
 							currentProgressStep: 2,
 							title: 'Tahap 3',
 							html: `<div class="justify">Ketik password yang sudah diberikan sebelumnya. Anda bisa mendapatkan <code>password</code> dengan mengetik NISN disitus ini pada laman Cari Data, atau <a href="/" style="text-decoration:none">tekan disini</a>. Sebagai contoh, password saya <code>$PWD.RHS</code><br><br><img src="assets/img/tahap3.jpg" class="swal-img-tutorial"></div>`
-						}).then((v)=>{
-							if(v.isDenied || v.isDismissed){Swal.close()} else{
+						}).then((v) => {
+							if (v.isDenied || v.isDismissed) { Swal.close() } else {
 								Swal_TutorialSteps.fire({
 									currentProgressStep: 3,
 									title: 'Tahap 4',
 									html: `<div class="justify">Tekan tombol <code>Accept</code>, untuk menyetujui semua Terms of Service dan Privacy Policy milik Google<br><br><img src="assets/img/tahap4.jpg" class="swal-img-tutorial"></div>`
-								}).then((v)=>{
-									if(v.isDenied || v.isDismissed){Swal.close()} else {
+								}).then((v) => {
+									if (v.isDenied || v.isDismissed) { Swal.close() } else {
 										Swal_TutorialSteps.fire({
 											currentProgressStep: 4,
 											confirmButtonText: 'Selesai',
@@ -120,7 +120,7 @@ window.onload = function () {
 		if (input.value != '') {
 			val = input.value; validasi = validate(val.split(''));
 			nan = validasi.includes(NaN); nisn = validasi.join('');
-			
+
 			if (nan) {
 				Swal_warning.fire({
 					text: 'NISN hanya berupa angka!',
@@ -143,63 +143,82 @@ window.onload = function () {
 				}
 				else {
 					if (nisn in database) {
-						let 
-							Nama = database[nisn].Nama,
-							Tingkat = database[nisn].Tingkat,
-							Username = database[nisn].Username,
-							Password = database[nisn].Password,
-							v = parseInt(Tingkat) - 9, a = [];
 
-						for (let i = 0; i < v; i++) {
-							a.push(`<i class="material-icons">star</i>`)
-						}
-						Swal_CariData.fire().then(()=>{
-							Swal.fire({
-								padding: '20px',
-								width: '600px',
-								showClass: {
-									popup: 'cover'
-								},
-								showConfirmButton: false,
-								html:
-									`<div class="kartu">
+						var db_collection_akun = db.collection("akun"),
+								db_collection_akun_doc_siswa = db_collection_akun.doc("siswa");
+
+						db_collection_akun_doc_siswa.get().then((doc) => {
+							if (doc.exists) {
+
+								// console.log("Document data:", doc.data());
+								let data = doc.data()
+								console.log(data);
+								alert(data.coba)
+
+							} else {
+								console.log("No such document!");
+							}
+						}).catch((error) => {
+							console.log("Error getting document: ", error);
+						});
+
+						// let
+						// 	Nama = database[nisn].Nama,
+						// 	Tingkat = database[nisn].Tingkat,
+						// 	Username = database[nisn].Username,
+						// 	Password = database[nisn].Password,
+						// 	v = parseInt(Tingkat) - 9, a = [];
+
+						// for (let i = 0; i < v; i++) {
+						// 	a.push(`<i class="material-icons">star</i>`)
+						// }
+						// Swal_CariData.fire().then(() => {
+						// 	Swal.fire({
+						// 		padding: '20px',
+						// 		width: '600px',
+						// 		showClass: {
+						// 			popup: 'cover'
+						// 		},
+						// 		showConfirmButton: false,
+						// 		html:
+						// 			`<div class="kartu">
 	
-										<h2 class="nisn">${nisn}</h2>
+						// 				<h2 class="nisn">${nisn}</h2>
 	
-										<img class="logo" src="assets/img/logo.png">
+						// 				<img class="logo" src="assets/img/logo.png">
 	
-										<div class="data-siswa nm">
-											<span>Nama Siswa</span>
-											<div class="ket nm-text">${Nama.toLowerCase()}</div>
-										</div>
+						// 				<div class="data-siswa nm">
+						// 					<span>Nama Siswa</span>
+						// 					<div class="ket nm-text">${Nama.toLowerCase()}</div>
+						// 				</div>
 	
-										<div class="data-siswa usrnm">
-											<span>Username</span>
-											<div class="ket usrnm-text">${Username}</div>
-										</div>
+						// 				<div class="data-siswa usrnm">
+						// 					<span>Username</span>
+						// 					<div class="ket usrnm-text">${Username}</div>
+						// 				</div>
 	
-										<div class="grup-tag">
+						// 				<div class="grup-tag">
 	
-											<div class="data-siswa psswrd">
-												<span>Password</span>
-												<div class="ket psswrd-text">${Password}</div>
-											</div>
+						// 					<div class="data-siswa psswrd">
+						// 						<span>Password</span>
+						// 						<div class="ket psswrd-text">${Password}</div>
+						// 					</div>
 	
-											<div class="data-siswa tngkt">
-												<span>Tingkat</span>
-												<div class="ket tngkt-text">${Tingkat}</div>
-												<div class="ket star-text">
-													${a.join("\n")}
-												</div>
-											</div>
+						// 					<div class="data-siswa tngkt">
+						// 						<span>Tingkat</span>
+						// 						<div class="ket tngkt-text">${Tingkat}</div>
+						// 						<div class="ket star-text">
+						// 							${a.join("\n")}
+						// 						</div>
+						// 					</div>
 	
-										</div>
+						// 				</div>
 	
-									</div>`
-							});
-						})
+						// 			</div>`
+						// 	});
+						// })
 					} else {
-						Swal_CariData.fire().then(()=>{
+						Swal_CariData.fire().then(() => {
 							Swal_error.fire({
 								text: 'NISN tidak ditemukan!',
 							});

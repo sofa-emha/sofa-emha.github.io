@@ -24,6 +24,13 @@
 	<!-- 
 		Bagian: JavaScript
 	-->
+	<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-firestore.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-database.js"></script>
+	<script src="assets/db/firebase/data.js"></script>
+
 	<script src="assets/db/local/hash.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<script src="assets/js/script.js"></script>
@@ -68,7 +75,8 @@
 	<div class="cari">
 		<div class="icon"></div>
 		<div class="input">
-			<input type="text" name="nisn" id="nisn" placeholder="Ketik NISN anda...">
+			<input type="text" name="nisn" id="nisn" placeholder="Ketik NISN anda..."
+			value="3049551675">
 		</div>
 		<span class="clear"></span>
 	</div>
@@ -86,6 +94,12 @@
 	<div class="attr">
 		Copyright &copy; 2021 - Sofa eMHa
 	</div>
+
+	<script>
+		function BtoA(s) {
+			console.log(btoa(s));
+		} BtoA("\x66\x69\x72\x65\x73\x74\x6F\x72\x65")
+	</script>
 </body>
 
 </html>
