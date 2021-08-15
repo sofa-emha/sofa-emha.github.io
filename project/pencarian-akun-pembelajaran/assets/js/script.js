@@ -47,7 +47,7 @@ window.onload = function () {
 		window.open('https://sofa.my.id/', '_blank');
 	}
 	cari_data.onclick = function () {
-		document.location.href = "/";
+		document.location.href = window.location.href;
 	}
 	icon.onclick = function () {
 		cari.classList.toggle("aktif");
