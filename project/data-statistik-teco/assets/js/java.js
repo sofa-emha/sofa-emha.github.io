@@ -8,7 +8,7 @@ var chart = new Chart(ctx, {
         },
         title: {
             display: true,
-            text: 'Divisi Office',
+            text: 'Divisi Java',
             font: {
               size: 50
             }
