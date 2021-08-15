@@ -1,11 +1,5 @@
-body {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-}
-
 .chart {
-  max-width: 85vw;
-  max-height: 65vh;
+	margin: 0 auto !important;
+	width: 90vw !important;
+	height: auto;
 }
