@@ -1,7 +1,5 @@
-let database =
-[
-  {
-    "Index": 1,
+let database = {
+  "1": {
     "Nama Lengkap": "Muhamad Fauza Ramadhan",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -21,8 +19,7 @@ let database =
     "Submission Date": "8/9/2021, 2:35:04 AM",
     "Submission ID": "bbc5169e"
   },
-  {
-    "Index": 2,
+  "2": {
     "Nama Lengkap": "Syahru kurniawan",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -42,8 +39,7 @@ let database =
     "Submission Date": "8/9/2021, 2:36:15 AM",
     "Submission ID": "e7d4f7a2"
   },
-  {
-    "Index": 3,
+  "3": {
     "Nama Lengkap": "Fina Auliya Rizqi",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -63,8 +59,7 @@ let database =
     "Submission Date": "8/9/2021, 2:51:37 AM",
     "Submission ID": "d56853bf"
   },
-  {
-    "Index": 4,
+  "4": {
     "Nama Lengkap": "Didi Aulia Putra",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -84,8 +79,7 @@ let database =
     "Submission Date": "8/9/2021, 3:56:16 AM",
     "Submission ID": "d8e33a98"
   },
-  {
-    "Index": 5,
+  "5": {
     "Nama Lengkap": "Farid Irsyad A",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -105,8 +99,7 @@ let database =
     "Submission Date": "8/9/2021, 3:57:53 AM",
     "Submission ID": "c7a75470"
   },
-  {
-    "Index": 6,
+  "6": {
     "Nama Lengkap": "Dinar Rizki",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Kendaraan Ringan Otomotif",
@@ -126,8 +119,7 @@ let database =
     "Submission Date": "8/9/2021, 4:01:06 AM",
     "Submission ID": "f846546a"
   },
-  {
-    "Index": 7,
+  "7": {
     "Nama Lengkap": "Amalia alayna safitri",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -147,8 +139,7 @@ let database =
     "Submission Date": "8/9/2021, 4:01:20 AM",
     "Submission ID": "629c266b"
   },
-  {
-    "Index": 8,
+  "8": {
     "Nama Lengkap": "Salmayda Eka Putcarinda",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -168,8 +159,7 @@ let database =
     "Submission Date": "8/9/2021, 4:06:38 AM",
     "Submission ID": "9b33bda2"
   },
-  {
-    "Index": 9,
+  "9": {
     "Nama Lengkap": "Zaskia Anristiana",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -189,8 +179,7 @@ let database =
     "Submission Date": "8/9/2021, 4:14:11 AM",
     "Submission ID": "2a2622f"
   },
-  {
-    "Index": 10,
+  "10": {
     "Nama Lengkap": "Salma nur karimah",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -210,8 +199,7 @@ let database =
     "Submission Date": "8/9/2021, 4:18:13 AM",
     "Submission ID": "63015c8c"
   },
-  {
-    "Index": 11,
+  "11": {
     "Nama Lengkap": "Mustofa Dwi Fitria Noviyanto",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Kendaraan Ringan Otomotif",
@@ -231,8 +219,7 @@ let database =
     "Submission Date": "8/9/2021, 4:18:55 AM",
     "Submission ID": "e7c7b728"
   },
-  {
-    "Index": 12,
+  "12": {
     "Nama Lengkap": "Ramona Aprilia Yuniar",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -252,8 +239,7 @@ let database =
     "Submission Date": "8/9/2021, 5:11:39 AM",
     "Submission ID": "8a865ebd"
   },
-  {
-    "Index": 13,
+  "13": {
     "Nama Lengkap": "Nabila Sri Andini",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -273,8 +259,7 @@ let database =
     "Submission Date": "8/9/2021, 6:32:03 AM",
     "Submission ID": "4c9a1e4"
   },
-  {
-    "Index": 14,
+  "14": {
     "Nama Lengkap": "Satriyawan",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -294,8 +279,7 @@ let database =
     "Submission Date": "8/9/2021, 7:21:10 AM",
     "Submission ID": "4d4a025b"
   },
-  {
-    "Index": 15,
+  "15": {
     "Nama Lengkap": "Luna Aulia Abriliani",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -315,8 +299,7 @@ let database =
     "Submission Date": "8/9/2021, 10:19:26 AM",
     "Submission ID": "ae96b405"
   },
-  {
-    "Index": 16,
+  "16": {
     "Nama Lengkap": "Muhammad Karomi",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Kendaraan Ringan Otomotif",
@@ -336,8 +319,7 @@ let database =
     "Submission Date": "8/9/2021, 12:45:16 PM",
     "Submission ID": "579aedf"
   },
-  {
-    "Index": 17,
+  "17": {
     "Nama Lengkap": "Puspa Dwi Setyorini",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -357,8 +339,7 @@ let database =
     "Submission Date": "8/9/2021, 1:54:40 PM",
     "Submission ID": 82586594
   },
-  {
-    "Index": 18,
+  "18": {
     "Nama Lengkap": "ERSA SANTIYA",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -378,8 +359,7 @@ let database =
     "Submission Date": "8/9/2021, 2:27:37 PM",
     "Submission ID": "73e1805e"
   },
-  {
-    "Index": 19,
+  "19": {
     "Nama Lengkap": "Dzakira syawal andini",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -399,8 +379,7 @@ let database =
     "Submission Date": "8/9/2021, 2:36:35 PM",
     "Submission ID": "ad6100f7"
   },
-  {
-    "Index": 20,
+  "20": {
     "Nama Lengkap": "Reva Aulia Ananda",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -420,8 +399,7 @@ let database =
     "Submission Date": "8/9/2021, 2:41:34 PM",
     "Submission ID": "f7c1d0e2"
   },
-  {
-    "Index": 21,
+  "21": {
     "Nama Lengkap": "Ochtavia Ramadhani Syaputri",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -441,8 +419,7 @@ let database =
     "Submission Date": "8/9/2021, 11:56:39 PM",
     "Submission ID": "5d523a3a"
   },
-  {
-    "Index": 22,
+  "22": {
     "Nama Lengkap": "Argindha Javva Sudiano Putra",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -462,8 +439,7 @@ let database =
     "Submission Date": "8/10/2021, 12:04:59 AM",
     "Submission ID": "6458e34f"
   },
-  {
-    "Index": 23,
+  "23": {
     "Nama Lengkap": "Farhan Anwar",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -483,8 +459,7 @@ let database =
     "Submission Date": "8/10/2021, 12:15:35 AM",
     "Submission ID": null
   },
-  {
-    "Index": 24,
+  "24": {
     "Nama Lengkap": "Anggita Septi Kirani",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -504,8 +479,7 @@ let database =
     "Submission Date": "8/10/2021, 12:16:23 AM",
     "Submission ID": "895fe714"
   },
-  {
-    "Index": 25,
+  "25": {
     "Nama Lengkap": "Riyanti",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -525,8 +499,7 @@ let database =
     "Submission Date": "8/10/2021, 12:17:55 AM",
     "Submission ID": "b6bfe88e"
   },
-  {
-    "Index": 26,
+  "26": {
     "Nama Lengkap": "Moh.Azmi Vicky Fahreza",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -546,8 +519,7 @@ let database =
     "Submission Date": "8/10/2021, 12:18:00 AM",
     "Submission ID": "b2c5ebd1"
   },
-  {
-    "Index": 27,
+  "27": {
     "Nama Lengkap": "Syahrul syiam",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -567,8 +539,7 @@ let database =
     "Submission Date": "8/10/2021, 12:33:20 AM",
     "Submission ID": "ccc8b83"
   },
-  {
-    "Index": 28,
+  "28": {
     "Nama Lengkap": "Reifan Anton Pratama",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -588,8 +559,7 @@ let database =
     "Submission Date": "8/10/2021, 1:02:13 AM",
     "Submission ID": "c2d5967e"
   },
-  {
-    "Index": 29,
+  "29": {
     "Nama Lengkap": "Melita dila Amelia Sari",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -609,8 +579,7 @@ let database =
     "Submission Date": "8/10/2021, 1:03:54 AM",
     "Submission ID": "d48e84f4"
   },
-  {
-    "Index": 30,
+  "30": {
     "Nama Lengkap": "Karisa Dwi Puspitasari",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -630,8 +599,7 @@ let database =
     "Submission Date": "8/10/2021, 1:13:40 AM",
     "Submission ID": "951f9930"
   },
-  {
-    "Index": 31,
+  "31": {
     "Nama Lengkap": "Siti ambariyah",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -651,8 +619,7 @@ let database =
     "Submission Date": "8/10/2021, 1:16:41 AM",
     "Submission ID": "54d03236"
   },
-  {
-    "Index": 32,
+  "32": {
     "Nama Lengkap": "WULAN SHAKILA PUTRI",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -672,8 +639,7 @@ let database =
     "Submission Date": "8/10/2021, 1:28:28 AM",
     "Submission ID": "1fa19f04"
   },
-  {
-    "Index": 33,
+  "33": {
     "Nama Lengkap": "Farhan Anwar",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -693,8 +659,7 @@ let database =
     "Submission Date": "8/10/2021, 1:31:37 AM",
     "Submission ID": "2494a61e"
   },
-  {
-    "Index": 34,
+  "34": {
     "Nama Lengkap": "WULAN SHAKILA PUTRI",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -714,8 +679,7 @@ let database =
     "Submission Date": "8/10/2021, 1:38:38 AM",
     "Submission ID": "65cec453"
   },
-  {
-    "Index": 35,
+  "35": {
     "Nama Lengkap": "Auliarahman Ragil Saputra",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -735,8 +699,7 @@ let database =
     "Submission Date": "8/10/2021, 2:02:41 AM",
     "Submission ID": "54b2e0d0"
   },
-  {
-    "Index": 36,
+  "36": {
     "Nama Lengkap": "Karisma dwi pramudina",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -756,8 +719,7 @@ let database =
     "Submission Date": "8/10/2021, 2:29:35 AM",
     "Submission ID": "45085b92"
   },
-  {
-    "Index": 37,
+  "37": {
     "Nama Lengkap": "WULAN SHAKILA PUTRI",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -777,8 +739,7 @@ let database =
     "Submission Date": "8/10/2021, 2:29:35 AM",
     "Submission ID": "81d5d64b"
   },
-  {
-    "Index": 38,
+  "38": {
     "Nama Lengkap": "Adiyatma",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -798,8 +759,7 @@ let database =
     "Submission Date": "8/10/2021, 2:50:52 AM",
     "Submission ID": "4a7222b4"
   },
-  {
-    "Index": 39,
+  "39": {
     "Nama Lengkap": "Laula Rizkya Afwa",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -819,8 +779,7 @@ let database =
     "Submission Date": "8/10/2021, 3:19:49 AM",
     "Submission ID": "de9d09a9"
   },
-  {
-    "Index": 40,
+  "40": {
     "Nama Lengkap": "Johar Awal Khoiroti w.",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -840,8 +799,7 @@ let database =
     "Submission Date": "8/10/2021, 4:09:38 AM",
     "Submission ID": "7ab53baa"
   },
-  {
-    "Index": 41,
+  "41": {
     "Nama Lengkap": "Muhammad Naufal Javier Athaya",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -861,8 +819,7 @@ let database =
     "Submission Date": "8/10/2021, 4:24:57 AM",
     "Submission ID": "8d1a6ae8"
   },
-  {
-    "Index": 42,
+  "42": {
     "Nama Lengkap": "Arya kurnia ramadhan",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -882,8 +839,7 @@ let database =
     "Submission Date": "8/10/2021, 4:59:55 AM",
     "Submission ID": "464a4953"
   },
-  {
-    "Index": 43,
+  "43": {
     "Nama Lengkap": "Arya Galih Reistiyo Putra",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -903,8 +859,7 @@ let database =
     "Submission Date": "8/10/2021, 5:13:08 AM",
     "Submission ID": "72a54e64"
   },
-  {
-    "Index": 44,
+  "44": {
     "Nama Lengkap": "Arya Galih Reistiyo Putra",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -924,8 +879,7 @@ let database =
     "Submission Date": "8/10/2021, 5:46:01 AM",
     "Submission ID": "6c687857"
   },
-  {
-    "Index": 45,
+  "45": {
     "Nama Lengkap": "Nisa Nur Amalia",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -945,8 +899,7 @@ let database =
     "Submission Date": "8/10/2021, 6:19:02 AM",
     "Submission ID": "6d68abf9"
   },
-  {
-    "Index": 46,
+  "46": {
     "Nama Lengkap": "Zahra Amelia Putri",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -966,8 +919,7 @@ let database =
     "Submission Date": "8/10/2021, 6:51:02 AM",
     "Submission ID": "5774a1e8"
   },
-  {
-    "Index": 47,
+  "47": {
     "Nama Lengkap": "Amelia Amesti",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -987,8 +939,7 @@ let database =
     "Submission Date": "8/10/2021, 8:52:46 AM",
     "Submission ID": "a189e465"
   },
-  {
-    "Index": 48,
+  "48": {
     "Nama Lengkap": "Dinda Aisyah Qotrunnada",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -1008,8 +959,7 @@ let database =
     "Submission Date": "8/10/2021, 11:08:19 AM",
     "Submission ID": "c38830fa"
   },
-  {
-    "Index": 49,
+  "49": {
     "Nama Lengkap": "Nisya Ayu Renchany",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -1029,8 +979,7 @@ let database =
     "Submission Date": "8/10/2021, 11:16:03 AM",
     "Submission ID": "74e2e90f"
   },
-  {
-    "Index": 50,
+  "50": {
     "Nama Lengkap": "Dinda Mei Putri",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -1050,8 +999,7 @@ let database =
     "Submission Date": "8/10/2021, 11:12:30 PM",
     "Submission ID": "181ab39a"
   },
-  {
-    "Index": 51,
+  "51": {
     "Nama Lengkap": "Naila Rosa Danuarti",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -1071,8 +1019,7 @@ let database =
     "Submission Date": "8/11/2021, 1:41:02 AM",
     "Submission ID": "428c0277"
   },
-  {
-    "Index": 52,
+  "52": {
     "Nama Lengkap": "Sari rahmah wati",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -1092,8 +1039,7 @@ let database =
     "Submission Date": "8/11/2021, 2:16:44 AM",
     "Submission ID": "22bd96d9"
   },
-  {
-    "Index": 53,
+  "53": {
     "Nama Lengkap": "Sofiana Indah Lestari",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -1113,8 +1059,7 @@ let database =
     "Submission Date": "8/11/2021, 2:21:55 AM",
     "Submission ID": "703aff79"
   },
-  {
-    "Index": 54,
+  "54": {
     "Nama Lengkap": "Yoga kurniawan",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -1134,8 +1079,7 @@ let database =
     "Submission Date": "8/11/2021, 2:40:28 AM",
     "Submission ID": "6635b463"
   },
-  {
-    "Index": 55,
+  "55": {
     "Nama Lengkap": "Nur Asri Pita Aulia",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1155,8 +1099,7 @@ let database =
     "Submission Date": "8/11/2021, 3:11:02 AM",
     "Submission ID": "8db9da0f"
   },
-  {
-    "Index": 56,
+  "56": {
     "Nama Lengkap": "Friska Arini Agustin",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1176,8 +1119,7 @@ let database =
     "Submission Date": "8/11/2021, 3:16:42 AM",
     "Submission ID": "4745ae2"
   },
-  {
-    "Index": 57,
+  "57": {
     "Nama Lengkap": "Tasya Putri Rahmandani",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1197,8 +1139,7 @@ let database =
     "Submission Date": "8/11/2021, 3:29:25 AM",
     "Submission ID": "160ff909"
   },
-  {
-    "Index": 58,
+  "58": {
     "Nama Lengkap": "Sarmila Agustina",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -1218,8 +1159,7 @@ let database =
     "Submission Date": "8/11/2021, 4:07:28 AM",
     "Submission ID": "62461fd9"
   },
-  {
-    "Index": 59,
+  "59": {
     "Nama Lengkap": "Hera Widyastuti",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -1239,8 +1179,7 @@ let database =
     "Submission Date": "8/11/2021, 4:09:34 AM",
     "Submission ID": "ec5826cc"
   },
-  {
-    "Index": 60,
+  "60": {
     "Nama Lengkap": "INTANNIA TRI RAHMA SUGIARTI",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -1260,8 +1199,7 @@ let database =
     "Submission Date": "8/11/2021, 4:10:27 AM",
     "Submission ID": "1c7b958f"
   },
-  {
-    "Index": 61,
+  "61": {
     "Nama Lengkap": "Sarmila agustina",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -1281,8 +1219,7 @@ let database =
     "Submission Date": "8/11/2021, 4:12:44 AM",
     "Submission ID": "9c6d7611"
   },
-  {
-    "Index": 62,
+  "62": {
     "Nama Lengkap": "Adiyatma",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -1302,8 +1239,7 @@ let database =
     "Submission Date": "8/11/2021, 4:15:34 AM",
     "Submission ID": "b25f7707"
   },
-  {
-    "Index": 63,
+  "63": {
     "Nama Lengkap": "INTANNIA TRI RAHMA SUGIARTI",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -1323,8 +1259,7 @@ let database =
     "Submission Date": "8/11/2021, 4:17:20 AM",
     "Submission ID": "ed125e44"
   },
-  {
-    "Index": 64,
+  "64": {
     "Nama Lengkap": "SATRIO BAGUS WICAKSONO",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1344,8 +1279,7 @@ let database =
     "Submission Date": "8/11/2021, 4:17:28 AM",
     "Submission ID": "a0cbd8a3"
   },
-  {
-    "Index": 65,
+  "65": {
     "Nama Lengkap": "Ersa santiya",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -1365,8 +1299,7 @@ let database =
     "Submission Date": "8/11/2021, 4:29:44 AM",
     "Submission ID": "6fbb2bd4"
   },
-  {
-    "Index": 66,
+  "66": {
     "Nama Lengkap": "Marlisa Indana Zulfa",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -1386,8 +1319,7 @@ let database =
     "Submission Date": "8/11/2021, 4:48:55 AM",
     "Submission ID": "8fe895ef"
   },
-  {
-    "Index": 67,
+  "67": {
     "Nama Lengkap": "Nabil Putra Susilowati",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Kendaraan Ringan Otomotif",
@@ -1407,8 +1339,7 @@ let database =
     "Submission Date": "8/11/2021, 5:01:46 AM",
     "Submission ID": "a213907a"
   },
-  {
-    "Index": 68,
+  "68": {
     "Nama Lengkap": "Ninda briliani saputri",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -1428,8 +1359,7 @@ let database =
     "Submission Date": "8/11/2021, 5:09:00 AM",
     "Submission ID": "63c47561"
   },
-  {
-    "Index": 69,
+  "69": {
     "Nama Lengkap": "TIKA NUR AIDAH",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1449,8 +1379,7 @@ let database =
     "Submission Date": "8/11/2021, 5:09:47 AM",
     "Submission ID": "49993f7"
   },
-  {
-    "Index": 70,
+  "70": {
     "Nama Lengkap": "Varissa Reva Natasya",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1470,8 +1399,7 @@ let database =
     "Submission Date": "8/11/2021, 5:28:56 AM",
     "Submission ID": "d440d9d6"
   },
-  {
-    "Index": 71,
+  "71": {
     "Nama Lengkap": "Satriyawan",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -1491,8 +1419,7 @@ let database =
     "Submission Date": "8/11/2021, 5:33:47 AM",
     "Submission ID": "4ae4b651"
   },
-  {
-    "Index": 72,
+  "72": {
     "Nama Lengkap": "Dewi Aisah Wati",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -1512,8 +1439,7 @@ let database =
     "Submission Date": "8/11/2021, 5:36:33 AM",
     "Submission ID": "dc6686ad"
   },
-  {
-    "Index": 73,
+  "73": {
     "Nama Lengkap": "Satriyawan",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -1533,8 +1459,7 @@ let database =
     "Submission Date": "8/11/2021, 6:18:42 AM",
     "Submission ID": "fea508d1"
   },
-  {
-    "Index": 74,
+  "74": {
     "Nama Lengkap": "INTANNIA TRI RAHMA SUGIARTI",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -1554,8 +1479,7 @@ let database =
     "Submission Date": "8/11/2021, 6:19:47 AM",
     "Submission ID": "42da0c49"
   },
-  {
-    "Index": 75,
+  "75": {
     "Nama Lengkap": "Ambarwati Setyo Putri",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -1575,8 +1499,7 @@ let database =
     "Submission Date": "8/11/2021, 6:41:14 AM",
     "Submission ID": "1443450c"
   },
-  {
-    "Index": 76,
+  "76": {
     "Nama Lengkap": "Jeny Syafa Aulia",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -1596,8 +1519,7 @@ let database =
     "Submission Date": "8/11/2021, 6:57:18 AM",
     "Submission ID": "e9a08921"
   },
-  {
-    "Index": 77,
+  "77": {
     "Nama Lengkap": "Rindi aulia",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1617,8 +1539,7 @@ let database =
     "Submission Date": "8/11/2021, 8:57:00 AM",
     "Submission ID": "f6bb1bbc"
   },
-  {
-    "Index": 78,
+  "78": {
     "Nama Lengkap": "Bimbi Riris Tri Astuti",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -1638,8 +1559,7 @@ let database =
     "Submission Date": "8/11/2021, 9:50:24 AM",
     "Submission ID": "574efbc1"
   },
-  {
-    "Index": 79,
+  "79": {
     "Nama Lengkap": "Shovia azmi firginia",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -1659,8 +1579,7 @@ let database =
     "Submission Date": "8/11/2021, 10:17:33 AM",
     "Submission ID": "fa908271"
   },
-  {
-    "Index": 80,
+  "80": {
     "Nama Lengkap": "Alifah Nur Ramadhani",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -1680,8 +1599,7 @@ let database =
     "Submission Date": "8/11/2021, 10:20:51 AM",
     "Submission ID": "a23b5006"
   },
-  {
-    "Index": 81,
+  "81": {
     "Nama Lengkap": "Vika Aulia Anggraeni",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
@@ -1701,8 +1619,7 @@ let database =
     "Submission Date": "8/11/2021, 10:35:20 AM",
     "Submission ID": "9e646ba"
   },
-  {
-    "Index": 82,
+  "82": {
     "Nama Lengkap": "Rosalina Astuti",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -1722,8 +1639,7 @@ let database =
     "Submission Date": "8/11/2021, 11:42:10 AM",
     "Submission ID": "794f1178"
   },
-  {
-    "Index": 83,
+  "83": {
     "Nama Lengkap": "Muhamad Rizki Eka Saputra",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1743,8 +1659,7 @@ let database =
     "Submission Date": "8/11/2021, 11:49:16 AM",
     "Submission ID": "95ac1565"
   },
-  {
-    "Index": 84,
+  "84": {
     "Nama Lengkap": "Nanda Azulfa Khoerunnisa",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -1764,8 +1679,7 @@ let database =
     "Submission Date": "8/11/2021, 11:56:07 AM",
     "Submission ID": "b7afe7f0"
   },
-  {
-    "Index": 85,
+  "85": {
     "Nama Lengkap": "Nur Afni Syaharani",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1785,8 +1699,7 @@ let database =
     "Submission Date": "8/11/2021, 1:22:29 PM",
     "Submission ID": 599007000000000
   },
-  {
-    "Index": 86,
+  "86": {
     "Nama Lengkap": "Wanda Duwi Fadilah",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1806,8 +1719,7 @@ let database =
     "Submission Date": "8/11/2021, 1:34:43 PM",
     "Submission ID": "579068c3"
   },
-  {
-    "Index": 87,
+  "87": {
     "Nama Lengkap": "Zuhrotun Nafisah",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1827,8 +1739,7 @@ let database =
     "Submission Date": "8/11/2021, 1:46:41 PM",
     "Submission ID": "cfca3b16"
   },
-  {
-    "Index": 88,
+  "88": {
     "Nama Lengkap": "Agis Ajeng Diva Natasya",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -1848,8 +1759,7 @@ let database =
     "Submission Date": "8/11/2021, 2:04:33 PM",
     "Submission ID": "95b8f513"
   },
-  {
-    "Index": 89,
+  "89": {
     "Nama Lengkap": "LINDA LIANI RAMADHANI",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -1869,8 +1779,7 @@ let database =
     "Submission Date": "8/11/2021, 2:13:36 PM",
     "Submission ID": "fc3cccd8"
   },
-  {
-    "Index": 90,
+  "90": {
     "Nama Lengkap": "Anisah",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1890,8 +1799,7 @@ let database =
     "Submission Date": "8/12/2021, 12:57:13 AM",
     "Submission ID": "8030aada"
   },
-  {
-    "Index": 91,
+  "91": {
     "Nama Lengkap": "Nur Diana",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -1911,8 +1819,7 @@ let database =
     "Submission Date": "8/12/2021, 1:09:24 AM",
     "Submission ID": "a2a15934"
   },
-  {
-    "Index": 92,
+  "92": {
     "Nama Lengkap": "Sensi Alviani",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1932,8 +1839,7 @@ let database =
     "Submission Date": "8/12/2021, 1:24:11 AM",
     "Submission ID": "7498448c"
   },
-  {
-    "Index": 93,
+  "93": {
     "Nama Lengkap": "Fatma Aulia",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1953,8 +1859,7 @@ let database =
     "Submission Date": "8/12/2021, 1:28:25 AM",
     "Submission ID": "4f85ae5"
   },
-  {
-    "Index": 94,
+  "94": {
     "Nama Lengkap": "RAHMA RAMADHANI",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -1974,8 +1879,7 @@ let database =
     "Submission Date": "8/12/2021, 1:28:39 AM",
     "Submission ID": "eaddd0d5"
   },
-  {
-    "Index": 95,
+  "95": {
     "Nama Lengkap": "Muhamad Faris Abdillah",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -1995,8 +1899,7 @@ let database =
     "Submission Date": "8/12/2021, 1:34:58 AM",
     "Submission ID": "34ae1927"
   },
-  {
-    "Index": 96,
+  "96": {
     "Nama Lengkap": "Refalina Dwi Aryani",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -2016,8 +1919,7 @@ let database =
     "Submission Date": "8/12/2021, 1:44:51 AM",
     "Submission ID": "27f41ea5"
   },
-  {
-    "Index": 97,
+  "97": {
     "Nama Lengkap": "NANDA EKA AZARIA",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -2037,8 +1939,7 @@ let database =
     "Submission Date": "8/12/2021, 1:53:31 AM",
     "Submission ID": "de6fc6b5"
   },
-  {
-    "Index": 98,
+  "98": {
     "Nama Lengkap": "Naura Dika Ariyani",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -2058,8 +1959,7 @@ let database =
     "Submission Date": "8/12/2021, 1:54:25 AM",
     "Submission ID": "b8ffa617"
   },
-  {
-    "Index": 99,
+  "99": {
     "Nama Lengkap": "Nurul Fadillah",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -2079,8 +1979,7 @@ let database =
     "Submission Date": "8/12/2021, 1:56:21 AM",
     "Submission ID": "aeccd078"
   },
-  {
-    "Index": 100,
+  "100": {
     "Nama Lengkap": "Rizka Dian B",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -2100,8 +1999,7 @@ let database =
     "Submission Date": "8/12/2021, 1:58:35 AM",
     "Submission ID": "69230a1f"
   },
-  {
-    "Index": 101,
+  "101": {
     "Nama Lengkap": "Gisca Amelliya",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -2121,8 +2019,7 @@ let database =
     "Submission Date": "8/12/2021, 2:01:02 AM",
     "Submission ID": "8adf5587"
   },
-  {
-    "Index": 102,
+  "102": {
     "Nama Lengkap": "Winna nuraini",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -2142,8 +2039,7 @@ let database =
     "Submission Date": "8/12/2021, 2:10:45 AM",
     "Submission ID": "a82d20f2"
   },
-  {
-    "Index": 103,
+  "103": {
     "Nama Lengkap": "Piska Putri Soleluna",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -2163,8 +2059,7 @@ let database =
     "Submission Date": "8/12/2021, 2:28:47 AM",
     "Submission ID": "99a16384"
   },
-  {
-    "Index": 104,
+  "104": {
     "Nama Lengkap": "Lutfia Meilani",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -2184,8 +2079,7 @@ let database =
     "Submission Date": "8/12/2021, 3:01:07 AM",
     "Submission ID": "fca89cc3"
   },
-  {
-    "Index": 105,
+  "105": {
     "Nama Lengkap": "Eka Melani Putri",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -2205,8 +2099,7 @@ let database =
     "Submission Date": "8/12/2021, 3:02:03 AM",
     "Submission ID": "21ca8ff"
   },
-  {
-    "Index": 106,
+  "106": {
     "Nama Lengkap": "Yeni Dwi Rahmawati",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -2226,8 +2119,7 @@ let database =
     "Submission Date": "8/12/2021, 5:13:36 AM",
     "Submission ID": "1dd78059"
   },
-  {
-    "Index": 107,
+  "107": {
     "Nama Lengkap": "Yeni Dwi Rahmawati",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -2247,8 +2139,7 @@ let database =
     "Submission Date": "8/12/2021, 5:15:01 AM",
     "Submission ID": "a7dca567"
   },
-  {
-    "Index": 108,
+  "108": {
     "Nama Lengkap": "Niken Naila Sari",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -2268,8 +2159,7 @@ let database =
     "Submission Date": "8/12/2021, 5:32:58 AM",
     "Submission ID": "efd6f431"
   },
-  {
-    "Index": 109,
+  "109": {
     "Nama Lengkap": "FERA FONIKA",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -2289,8 +2179,7 @@ let database =
     "Submission Date": "8/12/2021, 6:14:51 AM",
     "Submission ID": "7b3d0924"
   },
-  {
-    "Index": 110,
+  "110": {
     "Nama Lengkap": "Arif ahmad richi",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -2310,8 +2199,7 @@ let database =
     "Submission Date": "8/12/2021, 6:26:05 AM",
     "Submission ID": "f8cdf211"
   },
-  {
-    "Index": 111,
+  "111": {
     "Nama Lengkap": "resya aulia zalzadilla",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -2331,8 +2219,7 @@ let database =
     "Submission Date": "8/12/2021, 7:04:06 AM",
     "Submission ID": 27388832
   },
-  {
-    "Index": 112,
+  "112": {
     "Nama Lengkap": "Karina Natasya",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
@@ -2352,8 +2239,7 @@ let database =
     "Submission Date": "8/12/2021, 7:04:39 AM",
     "Submission ID": "409aecfd"
   },
-  {
-    "Index": 113,
+  "113": {
     "Nama Lengkap": "Sherly Salsabila Kirani",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
@@ -2373,8 +2259,7 @@ let database =
     "Submission Date": "8/12/2021, 7:04:48 AM",
     "Submission ID": 67506796
   },
-  {
-    "Index": 114,
+  "114": {
     "Nama Lengkap": "Nurfadilla Alya Kirani",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -2394,8 +2279,7 @@ let database =
     "Submission Date": "8/12/2021, 7:16:36 AM",
     "Submission ID": 72427284
   },
-  {
-    "Index": 115,
+  "115": {
     "Nama Lengkap": "Nabil Septian Sal Sabila",
     "Jenis Kelamin": "Laki-laki",
     "Kompetensi Keahlian": "Teknik Kendaraan Ringan Otomotif",
@@ -2415,8 +2299,7 @@ let database =
     "Submission Date": "8/12/2021, 7:35:40 AM",
     "Submission ID": "e1753611"
   },
-  {
-    "Index": 116,
+  "116": {
     "Nama Lengkap": "SASI WINANTI",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -2436,8 +2319,7 @@ let database =
     "Submission Date": "8/12/2021, 9:45:36 AM",
     "Submission ID": "7eb2ef8c"
   },
-  {
-    "Index": 117,
+  "117": {
     "Nama Lengkap": "Rahma Aulia Irmiati",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
@@ -2457,8 +2339,7 @@ let database =
     "Submission Date": "8/12/2021, 9:45:52 AM",
     "Submission ID": "c1d27bd"
   },
-  {
-    "Index": 118,
+  "118": {
     "Nama Lengkap": "Amelia Zahra",
     "Jenis Kelamin": "Perempuan",
     "Kompetensi Keahlian": "Teknik Kendaraan Ringan Otomotif",
@@ -2477,1202 +2358,5 @@ let database =
     "Submitter": "",
     "Submission Date": "8/12/2021, 12:07:46 PM",
     "Submission ID": null
-  },
-  {
-    "Index": 119,
-    "Nama Lengkap": "NAYZILLA RAMADHANI",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "X BDP 1",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "088225458817",
-    "Divisi": "Office",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin menambah wawasan tentu nya,dan ingin menambah pengalaman",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/12/2021, 12:32:10 PM",
-    "Submission ID": "fe6c4f3c"
-  },
-  {
-    "Index": 120,
-    "Nama Lengkap": "Nabil Putra Susilowati",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Kendaraan Ringan Otomotif",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "X TKRO 2",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "085227126484",
-    "Divisi": "Jaringan",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Inginn belajar teco",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/12/2021, 1:01:51 PM",
-    "Submission ID": "d370135e"
-  },
-  {
-    "Index": 121,
-    "Nama Lengkap": "Nabil Septian Sal Sabila",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Kendaraan Ringan Otomotif",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "X TKRO 2",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "089604724850",
-    "Divisi": "Jaringan",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin mempelajari TECO divisi jaringan",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/12/2021, 1:05:20 PM",
-    "Submission ID": "23d4025c"
-  },
-  {
-    "Index": 122,
-    "Nama Lengkap": "Saiful adi saputra",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Kendaraan Ringan Otomotif",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "X TKRO 1",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "085702609128",
-    "Divisi": "Desain Grafis",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/12/2021, 1:07:41 PM",
-    "Submission ID": "762a8bb4"
-  },
-  {
-    "Index": 123,
-    "Nama Lengkap": "Nova Putria",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
-    "Kelas": "X AKL 4",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "087764866396",
-    "Divisi": "Office",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Teman",
-    "Alasan anda untuk bergabung di TECO": "Untuk Prospek kedepannya bagus",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/12/2021, 1:12:53 PM",
-    "Submission ID": "a1245219"
-  },
-  {
-    "Index": 124,
-    "Nama Lengkap": "Indi oktavira",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "X BDP 2",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "085201367022",
-    "Divisi": "Animasi",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Sya tertarik mengikuti ekstrakurikuler tersebut",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/12/2021, 1:17:55 PM",
-    "Submission ID": "28c7d22"
-  },
-  {
-    "Index": 125,
-    "Nama Lengkap": "Muhammad Karomi",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Kendaraan Ringan Otomotif",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "X TKRO 2",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "081548262229",
-    "Divisi": "Website",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Teman",
-    "Alasan anda untuk bergabung di TECO": "Saya berkeinginan belajar website, untuk bekal dimasa mendatang.",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/12/2021, 2:04:12 PM",
-    "Submission ID": "54d29ba4"
-  },
-  {
-    "Index": 126,
-    "Nama Lengkap": "Marsyam adinugroho Al Fatih",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 4",
-    "Nomor WhatsApp": "08972680505",
-    "Divisi": "Pemrograman Java",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin belajar lebih mendalam tentang apa yang ada di teco",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/12/2021, 2:15:57 PM",
-    "Submission ID": "c66b2d32"
-  },
-  {
-    "Index": 127,
-    "Nama Lengkap": "Laras ayu widiastuti",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 1",
-    "Nomor WhatsApp": "083105194681",
-    "Divisi": "Website",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/12/2021, 3:11:05 PM",
-    "Submission ID": "87e8b1af"
-  },
-  {
-    "Index": 128,
-    "Nama Lengkap": "Laras ayu widiastuti",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "083105194681",
-    "Divisi": "Website",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/12/2021, 3:13:18 PM",
-    "Submission ID": "e0eab7e"
-  },
-  {
-    "Index": 129,
-    "Nama Lengkap": "Dinar Rizki",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Kendaraan Ringan Otomotif",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "X TKRO 2",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "085700708352",
-    "Divisi": "Desain Grafis",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Teman",
-    "Alasan anda untuk bergabung di TECO": "Ingiin mendalamain desain grafis dan lainnya",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/12/2021, 3:14:17 PM",
-    "Submission ID": "de985342"
-  },
-  {
-    "Index": 130,
-    "Nama Lengkap": "Dina Ramadhani",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "083103802989",
-    "Divisi": "Website",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin belajar lebih dalam mengenai komputer",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 12:51:55 AM",
-    "Submission ID": "e31dbff8"
-  },
-  {
-    "Index": 131,
-    "Nama Lengkap": "Arya Mahendra",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "0895386650575",
-    "Divisi": "Office",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin mempelajari tentang cara kerja software perkantoran",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 2:21:20 AM",
-    "Submission ID": "c6079b01"
-  },
-  {
-    "Index": 132,
-    "Nama Lengkap": "Nanda Azulfa Khoerunnisa",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 1",
-    "Nomor WhatsApp": "081930537749",
-    "Divisi": "Jaringan",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 3:02:08 AM",
-    "Submission ID": "e61411bf"
-  },
-  {
-    "Index": 133,
-    "Nama Lengkap": "Putri Windasari",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "087867034517",
-    "Divisi": "Desain Grafis",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Karena saya ingin mempelajari sesuatu hal yang belum saya ketahui terutama di TECO ini",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 4:13:21 AM",
-    "Submission ID": "33948deb"
-  },
-  {
-    "Index": 134,
-    "Nama Lengkap": "Aleta zahra purwatama",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
-    "Kelas": "",
-    "Kelas__1": "X OTKP 2",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "089521621116",
-    "Divisi": "Office",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Media Sosial",
-    "Alasan anda untuk bergabung di TECO": "Ingin berpengalaman di TECO untuk menambah wawasan",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 4:19:11 AM",
-    "Submission ID": "a3b51764"
-  },
-  {
-    "Index": 135,
-    "Nama Lengkap": "Yunike Safitri",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
-    "Kelas": "",
-    "Kelas__1": "X OTKP 2",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "085228866634",
-    "Divisi": "Office",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Media Sosial",
-    "Alasan anda untuk bergabung di TECO": "ingin mempunyai pengalaman yang baik di TECO,dan semoga pengalaman ini bisa berguna di masa depan nanti",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 4:19:40 AM",
-    "Submission ID": "48a5aaa7"
-  },
-  {
-    "Index": 136,
-    "Nama Lengkap": "Aulia Rahmawati",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "0895342707705",
-    "Divisi": "Desain Grafis",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Untuk menambah pengetahuan",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 5:06:42 AM",
-    "Submission ID": "6098ced2"
-  },
-  {
-    "Index": 137,
-    "Nama Lengkap": "Atha Aulia Shafa",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "089690717472",
-    "Divisi": "Office",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Teman",
-    "Alasan anda untuk bergabung di TECO": "Untuk menguasai ilmu teknik jaringan dan komputer",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 5:09:42 AM",
-    "Submission ID": "317e3efa"
-  },
-  {
-    "Index": 138,
-    "Nama Lengkap": "Rimi asih",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "085226254255",
-    "Divisi": "Website",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Untuk menambah wawasan akan perkembangan teknologi",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 7:43:35 AM",
-    "Submission ID": "2ea19d57"
-  },
-  {
-    "Index": 139,
-    "Nama Lengkap": "Novita Eka Saputri",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
-    "Kelas": "X AKL 2",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "083861758953",
-    "Divisi": "Office",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin belajar menguasai aplikasi MS Office dan perkantoran seperti MS Word, MS Excel, MS Powerpoint, dan MyOB.",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 8:55:15 AM",
-    "Submission ID": "2a324b6f"
-  },
-  {
-    "Index": 140,
-    "Nama Lengkap": "Novita Eka Saputri",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
-    "Kelas": "X AKL 2",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "083861758953",
-    "Divisi": "Office",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin belajar menguasai aplikasi MS Office dan perkantoran seperti MS Word, MS Excel, MS Powerpoint, dan MyOB.",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 8:58:21 AM",
-    "Submission ID": "4d270701"
-  },
-  {
-    "Index": 141,
-    "Nama Lengkap": "Salma Afifah",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "X BDP 2",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "0859121618125",
-    "Divisi": "Office",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Teman",
-    "Alasan anda untuk bergabung di TECO": "Ingin belajar dan mengetahui lebih dalam tentang office.",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 12:11:44 PM",
-    "Submission ID": "4e08e498"
-  },
-  {
-    "Index": 142,
-    "Nama Lengkap": "Dwi Yanti",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
-    "Kelas": "",
-    "Kelas__1": "X OTKP 3",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "087779849800",
-    "Divisi": "Website",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Other",
-    "Alasan anda untuk bergabung di TECO": "menambah ilmu/skill",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 12:22:23 PM",
-    "Submission ID": "ab4752d5"
-  },
-  {
-    "Index": 143,
-    "Nama Lengkap": "Muhammad Rico andharesta",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "089524794984",
-    "Divisi": "Jaringan",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Guru",
-    "Alasan anda untuk bergabung di TECO": "",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 1:00:21 PM",
-    "Submission ID": "4c906cde"
-  },
-  {
-    "Index": 144,
-    "Nama Lengkap": "Nazza Qonitatillah",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "X BDP 3",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "+62 878-5526-1241",
-    "Divisi": "Desain Grafis",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Teman",
-    "Alasan anda untuk bergabung di TECO": "Pengin menambah ilmu wawasan tentang TECO",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 3:10:31 PM",
-    "Submission ID": "7235f801"
-  },
-  {
-    "Index": 145,
-    "Nama Lengkap": "keny radjasa baiquni",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "0895700305878",
-    "Divisi": "Office",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/13/2021, 6:45:07 PM",
-    "Submission ID": "ac101777"
-  },
-  {
-    "Index": 146,
-    "Nama Lengkap": "Putri Zaeny Wulandari",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Otomatisasi dan Tata Kelola Perkantoran",
-    "Kelas": "",
-    "Kelas__1": "X OTKP 3",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "085977585428",
-    "Divisi": "Desain Grafis",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin menambah wawasan dan pengetahuan lebih tentang teknologi.",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 3:02:35 AM",
-    "Submission ID": "eb5babb9"
-  },
-  {
-    "Index": 147,
-    "Nama Lengkap": "Habsyi khoirul akbar",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "082328580028",
-    "Divisi": "Jaringan",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 3:28:48 AM",
-    "Submission ID": "db9bc96d"
-  },
-  {
-    "Index": 148,
-    "Nama Lengkap": "Arif ahmad richi",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "085732143006",
-    "Divisi": "Website",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin bisa pemrograma web",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 3:31:24 AM",
-    "Submission ID": "7e0b0f22"
-  },
-  {
-    "Index": 149,
-    "Nama Lengkap": "Ilaikanurbilal",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "083801541308",
-    "Divisi": "Website",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Teman",
-    "Alasan anda untuk bergabung di TECO": "karena ingin mendapatkan lebih banyak pelajaran",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 3:44:22 AM",
-    "Submission ID": "e692ffdf"
-  },
-  {
-    "Index": 150,
-    "Nama Lengkap": "Salma Maulida Nur",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
-    "Kelas": "X AKL 1",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "085870863072",
-    "Divisi": "Office",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Saya ingin bisa komputer ataupun laptop",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 3:51:50 AM",
-    "Submission ID": "49d781cb"
-  },
-  {
-    "Index": 151,
-    "Nama Lengkap": "Purwana dhani pratama",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
-    "Kelas": "X AKL 2",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "08996652378",
-    "Divisi": "Jaringan",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "INGIN BELAJAR TECO",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 4:17:06 AM",
-    "Submission ID": "80567aa8"
-  },
-  {
-    "Index": 152,
-    "Nama Lengkap": "Wahyu Dani Pamungkas",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "0895700207471",
-    "Divisi": "Desain Grafis",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin mengetahui lebih luas tentang desain grafis",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 4:22:04 AM",
-    "Submission ID": "15c2c6e6"
-  },
-  {
-    "Index": 153,
-    "Nama Lengkap": "Rafi ramadhani",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "083116219526",
-    "Divisi": "Pemrograman Java",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Media Sosial",
-    "Alasan anda untuk bergabung di TECO": "",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 5:34:22 AM",
-    "Submission ID": "ad0b9292"
-  },
-  {
-    "Index": 154,
-    "Nama Lengkap": "Didi Aulia Putra",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "0895700304443",
-    "Divisi": "Website",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin saja untuk masa depan",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 5:52:55 AM",
-    "Submission ID": "7a180f8f"
-  },
-  {
-    "Index": 155,
-    "Nama Lengkap": "DENI FIRMANSYAH",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "087836322770",
-    "Divisi": "Jaringan",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 6:00:15 AM",
-    "Submission ID": "9b72ffe3"
-  },
-  {
-    "Index": 156,
-    "Nama Lengkap": "SATRIO BAGUS WICAKSONO",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
-    "Kelas": "X AKL 4",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "082328146065",
-    "Divisi": "Pemrograman Java",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Media Sosial",
-    "Alasan anda untuk bergabung di TECO": "agar bisa memahami pengoprasian komputer",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 6:56:10 AM",
-    "Submission ID": "58ffdcf"
-  },
-  {
-    "Index": 157,
-    "Nama Lengkap": "Rani Lisya Ayekti",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
-    "Kelas": "X AKL 4",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "088226643037",
-    "Divisi": "Office",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Saya ingin bisa meningkatkan bakat saya dan saya ingin bisa .",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 10:36:01 AM",
-    "Submission ID": "4c7dcf45"
-  },
-  {
-    "Index": 158,
-    "Nama Lengkap": "Kaito delux",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 1",
-    "Nomor WhatsApp": "088329865203",
-    "Divisi": "Animasi",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Media Sosial",
-    "Alasan anda untuk bergabung di TECO": "Titip salam buat mas Iqbal yg pakai kaca mata kyaaaaa >////< Mas Biantoro koordnya semangat bgt kyaa >///<",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 12:19:47 PM",
-    "Submission ID": "55ac5af6"
-  },
-  {
-    "Index": 159,
-    "Nama Lengkap": "Sofia Aulanisa",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "X BDP 2",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "085894076717",
-    "Divisi": "Desain Grafis",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 12:29:30 PM",
-    "Submission ID": "50a0e1ed"
-  },
-  {
-    "Index": 160,
-    "Nama Lengkap": "Bambang Pingin Glory",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 1",
-    "Nomor WhatsApp": "085285232145",
-    "Divisi": "Animasi",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Media Sosial",
-    "Alasan anda untuk bergabung di TECO": "Salam buat qaqa Iqbal dr divisi animasi \"kaka ganteng kalo ga jelek\" kyaaa yamete kuda kudaan >~<",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 12:48:05 PM",
-    "Submission ID": "7e8e9044"
-  },
-  {
-    "Index": 161,
-    "Nama Lengkap": "Muhammad Rico andharesta",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "089524794984",
-    "Divisi": "Jaringan",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Guru",
-    "Alasan anda untuk bergabung di TECO": "",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/14/2021, 8:40:35 PM",
-    "Submission ID": "4d7047fa"
-  },
-  {
-    "Index": 162,
-    "Nama Lengkap": "SITI KHOEROTUL BADRIYAH",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
-    "Kelas": "X AKL 2",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "083143706949",
-    "Divisi": "Website",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Teman",
-    "Alasan anda untuk bergabung di TECO": "Ingin lebih memahami tentang ilmu pengetahuan dan teknologi, dan akan sangat membantu dengan jurusan yang saya pilih, serta melatih diri dalam menguasai teknologi terutama di masa sekarang",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/15/2021, 12:56:42 AM",
-    "Submission ID": "e4c285d"
-  },
-  {
-    "Index": 163,
-    "Nama Lengkap": "VELIN NIA NOVA",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
-    "Kelas": "X AKL 2",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "087792117259",
-    "Divisi": "Pemrograman Java",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/15/2021, 2:49:35 AM",
-    "Submission ID": "6d472c7f"
-  },
-  {
-    "Index": 164,
-    "Nama Lengkap": "Nifsi Fadhilah",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Akuntansi dan Keuangan Lembaga",
-    "Kelas": "X AKL 4",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "087720960682",
-    "Divisi": "Desain Grafis",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin menambah pengalaman",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/15/2021, 4:50:23 AM",
-    "Submission ID": "d358ab38"
-  },
-  {
-    "Index": 165,
-    "Nama Lengkap": "Reva Mardiana",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 1",
-    "Nomor WhatsApp": "083143757838",
-    "Divisi": "Animasi",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Saya tertarik dan ingin mendalaminya",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/15/2021, 1:08:51 PM",
-    "Submission ID": "138ed1c0"
-  },
-  {
-    "Index": 166,
-    "Nama Lengkap": "Agiyaski",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 1",
-    "Nomor WhatsApp": "087837898111",
-    "Divisi": "Animasi",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Saya tertarik dan ingin mendalaminya lagi",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/15/2021, 1:12:37 PM",
-    "Submission ID": "77a01dc8"
-  },
-  {
-    "Index": 167,
-    "Nama Lengkap": "Khodijah Koni Fadilah",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 1",
-    "Nomor WhatsApp": "081227884084",
-    "Divisi": "Animasi",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Saya tertarik",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/15/2021, 1:30:28 PM",
-    "Submission ID": "510a23ab"
-  },
-  {
-    "Index": 168,
-    "Nama Lengkap": "ABDUL HAFIDZ MADANI",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 2",
-    "Nomor WhatsApp": "082328187843",
-    "Divisi": "Jaringan",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Agar saya lebih mudah dalam memahami jurusan saya",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/15/2021, 2:07:56 PM",
-    "Submission ID": "2d37df4"
-  },
-  {
-    "Index": 169,
-    "Nama Lengkap": "Naja tsamrotul fuadiyah",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 4",
-    "Nomor WhatsApp": "081542239936",
-    "Divisi": "Jaringan",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin lebih mengenal jauh tentang jaringan ,komptr, dll.  Khususnya lebih ke office !",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/15/2021, 2:53:41 PM",
-    "Submission ID": "53b3e53a"
-  },
-  {
-    "Index": 170,
-    "Nama Lengkap": "Cika Anisa Putri",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 3",
-    "Nomor WhatsApp": "083146280691",
-    "Divisi": "Jaringan",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin lebih mengenal jaringan komputer dll Khususnya office!!!",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/15/2021, 3:02:25 PM",
-    "Submission ID": "94ac6f15"
-  },
-  {
-    "Index": 171,
-    "Nama Lengkap": "Dana Amara Kautsar",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik dan Bisnis Sepeda Motor",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "X TBSM 1",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "088229526848",
-    "Divisi": "Desain Grafis",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Ingin mengembangkan bakat di bidang desain  seperti membuat poster logo dll",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/15/2021, 3:21:39 PM",
-    "Submission ID": "4e8f507f"
-  },
-  {
-    "Index": 172,
-    "Nama Lengkap": "Abieda Karima Al Isfahani",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "X BDP 4",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "087773031135",
-    "Divisi": "Desain Grafis",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/15/2021, 3:31:32 PM",
-    "Submission ID": "4ecd93e0"
-  },
-  {
-    "Index": 173,
-    "Nama Lengkap": "Ghatan Afdhollul Ghilmana",
-    "Jenis Kelamin": "Laki-laki",
-    "Kompetensi Keahlian": "Teknik dan Bisnis Sepeda Motor",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "X TBSM 1",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "087827250996",
-    "Divisi": "Desain Grafis",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "Pengin lebih tahu tentang TECO",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/15/2021, 3:37:13 PM",
-    "Submission ID": "11fee7b9"
-  },
-  {
-    "Index": 174,
-    "Nama Lengkap": "Kurnia Puji Lestari",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Teknik Komputer dan Jaringan",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "X TKJ 4",
-    "Nomor WhatsApp": "087711642686",
-    "Divisi": "Desain Grafis",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Ya",
-    "Darimana anda tahu tentang TECO?": "Media Sosial",
-    "Alasan anda untuk bergabung di TECO": "Untuk menambah wawasan dan pengalaman pengetahuan di bidang teknologi informasi",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/15/2021, 3:49:30 PM",
-    "Submission ID": "bdd30820"
-  },
-  {
-    "Index": 175,
-    "Nama Lengkap": "Tsabita nurul izzah",
-    "Jenis Kelamin": "Perempuan",
-    "Kompetensi Keahlian": "Bisnis Daring dan Pemasaran",
-    "Kelas": "",
-    "Kelas__1": "",
-    "Kelas__2": "X BDP 3",
-    "Kelas__3": "",
-    "Kelas__4": "",
-    "Kelas__5": "",
-    "Nomor WhatsApp": "085712809753",
-    "Divisi": "Desain Grafis",
-    "Apakah anda sudah tahu tentang TECO sebelumnya?": "Tidak",
-    "Darimana anda tahu tentang TECO?": "",
-    "Alasan anda untuk bergabung di TECO": "",
-    "Please accept the Terms & Conditions": true,
-    "Submitter": "",
-    "Submission Date": "8/15/2021, 4:16:55 PM",
-    "Submission ID": "5df3d8a8"
   }
-];
+}

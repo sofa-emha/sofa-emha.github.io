@@ -105,15 +105,15 @@ function filterJurusan(array) {
       }
     }
   }
-  countDivisi(office, "Office");
-  countDivisi(website, "Website");
-  countDivisi(jaringan, "Jaringan");
-  countDivisi(animasi, "Animasi");
-  countDivisi(java, "Java");
-  countDivisi(grafis, "Grafis");
+  countingPeopleFrom(office, "Office");
+  countingPeopleFrom(website, "Website");
+  countingPeopleFrom(jaringan, "Jaringan");
+  countingPeopleFrom(animasi, "Animasi");
+  countingPeopleFrom(java, "Java");
+  countingPeopleFrom(grafis, "Grafis");
 }
 
-function countDivisi(array, val) {
+function countingPeopleFrom(array, val) {
   let counts = {}; array.sort();
   for (let i = 0; i < array.length; i++) {
     if (counts[array[i]]) {
