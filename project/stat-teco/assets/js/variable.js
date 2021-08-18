@@ -36,8 +36,8 @@ let
   label_office = [],
   label_jaringan = [],
   label_grafis = [],
-  label_animasi = []
-
+  label_animasi = [],
+  
   data_java = [],
   data_website = [],
   data_office = [],

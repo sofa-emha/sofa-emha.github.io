@@ -3,22 +3,12 @@
 function getURL($url, $value)
 {
   if ($url != '') {
-    if ($value != '') {
-      $call = parse_url($url)[$value];
-      return $call;
-    } else {
-      $call = parse_url($url);
-      return $call;
-    }
+    if ($value != '') {return parse_url($url)[$value];}
+    else {return parse_url($url);}
   } else {
     $url = $_SERVER["HTTP_HOST"] . $_SERVER["REQUEST_URI"];
-    if ($value != '') {
-      $call = parse_url($url)[$value];
-      return $call;
-    } else {
-      $call = parse_url($url);
-      return $call;
-    }
+    if ($value != '') {return parse_url($url)[$value];}
+    else {return parse_url($url);}
   }
 }
 

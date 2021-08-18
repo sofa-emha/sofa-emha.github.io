@@ -66,12 +66,7 @@ $footer =
             <span class="text-muted">&copy; 2021 SMK Negeri 1 Pemalang<br>Technology Community. All Rights Reserved</span>
           </div>
           <div class="col-md-4 d-flex align-items-center justify-content-end">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-              <svg class="bi" width="30" height="24">
-                <use xlink:href="#bootstrap"></use>
-              </svg>
-            </a>
-            <span class="text-muted">Dibuat dengan hati oleh <a class="text-decoration-none" href="http://sofa-emha.github.io">Sofa eMHa</a></span>
+            <span class="text-muted">Develop by <a class="text-decoration-none" href="http://sofa-emha.github.io">Sofa eMHa</a></span>
           </div>
         </footer>
 ';

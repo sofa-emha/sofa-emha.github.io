@@ -77,56 +77,6 @@ require 'assets/php/auto.php';
 
         <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
 
-        <h2>Detail Data</h2>
-        <div class="table-responsive">
-          <table class="table table-striped table-sm">
-            <thead>
-              <tr>
-                <th scope="col">Index</th>
-                <th scope="col">Name</th>
-                <th scope="col">Major</th>
-                <th scope="col">Phone</th>
-                <th scope="col">Division</th>
-                <th scope="col">Timestamp</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>1,001</td>
-                <td>random</td>
-                <td>data</td>
-                <td>placeholder</td>
-                <td>video</td>
-                <td>text</td>
-              </tr>
-              <tr>
-                <td>1,002</td>
-                <td>placeholder</td>
-                <td>irrelevant</td>
-                <td>visual</td>
-                <td>video</td>
-                <td>layout</td>
-              </tr>
-              <tr>
-                <td>1,003</td>
-                <td>data</td>
-                <td>rich</td>
-                <td>dashboard</td>
-                <td>video</td>
-                <td>tabular</td>
-              </tr>
-              <tr>
-                <td>1,003</td>
-                <td>information</td>
-                <td>placeholder</td>
-                <td>illustrative</td>
-                <td>video</td>
-                <td>data</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
         <?php echo $footer?>
 
       </main>
