@@ -3,14 +3,10 @@ function getQueryFromURL() {
   if (checkURLQuery(wls)) {
     usp = new URLSearchParams(wls); query = usp.get('s');
     major = query.charAt(0).toUpperCase() + query.slice(1);
-    if (divisi.indexOf(major) !== -1) {
-      return query;
-    } else {
-      window.location = window.location.href.split("?")[0];
-    }
-  } else {
-    return query = null;
+    if (divisi.indexOf(major) !== -1) {return query;}
+    else {window.location = window.location.href.split("?")[0];}
   }
+  else {return query = null;}
 }
 
 function checkURLQuery(url) {

@@ -1,8 +1,5 @@
 <?php $urlQuery = (isset($_GET["s"])) ? $_GET["s"] : null;
-
-require 'assets/php/function.php';
-require 'assets/php/auto.php';
-
+require 'assets/php/run.php'
 ?>
 
 <!DOCTYPE html>
@@ -24,24 +21,52 @@ require 'assets/php/auto.php';
   <link rel="stylesheet" href="assets/css/style.css">
 
   <!-- Script -->
-  <script src="assets/dist/bootstrap5/js/bootstrap.bundle.min.js"></script>
   <script src="assets/dist/sweetalert2/sweetalert2.all.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js" integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js" integrity="sha384-zNy6FEbO50N+Cg5wap8IKA4M/ZnLJgzc6w2NqACZaK0u0FXfOWRRJOnQtpZun8ha" crossorigin="anonymous"></script>
+  <script data-main="assets/js/script.js" src="assets/dist/requirejs/requirejs.js"></script>
 </head>
 
 <body>
 
-  <?php echo $header?>
+  <?php echo $header ?>
 
   <div class="container-fluid">
     <div class="row">
-      <?php echo $navbar?>
+      <?php echo $navbar ?>
 
       <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
 
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <h1 class="h2">Statistik</h1>
+          <h1 class="h2">
+            <?php
+              $title_page = "Pendaftaran TECO Tahun 2021";
+              switch ($urlQuery) {
+                case 'java':
+                  echo $title_page . " - Divisi Pemrograman Java";
+                  break;
+                case 'website':
+                  echo $title_page . " - Divisi Desain Website";
+                  break;
+                case 'grafis':
+                  echo $title_page . " - Divisi Desain Grafis";
+                  break;
+                case 'office':
+                  echo $title_page . " - Divisi Office";
+                  break;
+                case 'jaringan':
+                  echo $title_page . " - Divisi Jaringan";
+                  break;
+                case 'animasi':
+                  echo $title_page . " - Divisi Animasi";
+                  break;
+                
+                default:
+                  echo $title_page;
+                  break;
+              }
+            ?>
+          </h1>
           <div class="btn-toolbar mb-2 mb-md-0">
             <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle" id="divisi" data-bs-toggle="dropdown" aria-expanded="false">
               <?php switch ($urlQuery) {
@@ -63,32 +88,25 @@ require 'assets/php/auto.php';
                 case 'animasi':
                   echo '<span data-feather="film"></span> &nbsp; Animasi';
                   break;
-                
+
                 default:
                   echo '<span data-feather="grid"></span> &nbsp; Semua Divisi';
                   break;
-              }?>
+              } ?>
             </button>
             <ul class="dropdown-menu" aria-labelledby="divisi">
-              <?php divisiDropDownMenu($urlQuery);?>
+              <?php divisiDropDownMenu($urlQuery); ?>
             </ul>
           </div>
         </div>
 
         <canvas class="my-4 w-100" id="myChart" width="900" height="380"></canvas>
 
-        <?php echo $footer?>
+        <?php echo $footer ?>
 
       </main>
     </div>
   </div>
-
-  <!-- Script -->
-  <script src="assets/db/local/array.js"></script>
-  <script src="assets/js/variable.js"></script>
-  <script src="assets/js/function.js"></script>
-  <script src="assets/js/run.js"></script>
-  <script src="assets/js/script.js"></script>
 </body>
 
 </html>

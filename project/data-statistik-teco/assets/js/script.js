@@ -105,15 +105,15 @@ function filterJurusan(array) {
       }
     }
   }
-  countingPeopleFrom(office, "Office");
-  countingPeopleFrom(website, "Website");
-  countingPeopleFrom(jaringan, "Jaringan");
-  countingPeopleFrom(animasi, "Animasi");
-  countingPeopleFrom(java, "Java");
-  countingPeopleFrom(grafis, "Grafis");
+  p(office, "Office");
+  p(website, "Website");
+  p(jaringan, "Jaringan");
+  p(animasi, "Animasi");
+  p(java, "Java");
+  p(grafis, "Grafis");
 }
 
-function countingPeopleFrom(array, val) {
+function p(array, val) {
   let counts = {}; array.sort();
   for (let i = 0; i < array.length; i++) {
     if (counts[array[i]]) {
