@@ -1,3 +1,8 @@
+/**
+ * Script ori dari template
+ * ntar maw dipindah ke function.js
+ */
+
 (function () {
   'use strict'
   feather.replace({ 'aria-hidden': 'true' })
@@ -26,7 +31,7 @@
         ],
         backgroundColor: '#007bff',
         borderColor: '#007bff',
-        borderWidth: 4
+        borderWidth: 4,
       }]
     },
     options: {

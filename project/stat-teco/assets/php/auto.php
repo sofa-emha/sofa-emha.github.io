@@ -14,43 +14,43 @@ $navbar =
         <div class="position-sticky pt-3">
           <ul class="nav flex-column">
             <li class="nav-item">
-              <a class="nav-link'.navbarMenuActive($link, '').'" href="http://'.getURL('','path').'">
+              <a class="nav-link'.navbarMenuActive($urlQuery, '').'" href="http://'.getURL('','path').'">
                 <span data-feather="grid"></span>
                 Dashboard
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link'.navbarMenuActive($link, 'java').'" href="http://'.getURL('','path').'?s=java">
+              <a class="nav-link'.navbarMenuActive($urlQuery, 'java').'" href="http://'.getURL('','path').'?s=java">
                 <span data-feather="coffee"></span>
                 Pemrograman Java
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link'.navbarMenuActive($link, 'website').'" href="http://'.getURL('','path').'?s=website">
+              <a class="nav-link'.navbarMenuActive($urlQuery, 'website').'" href="http://'.getURL('','path').'?s=website">
                 <span data-feather="layout"></span>
                 Desain Website
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link'.navbarMenuActive($link, 'grafis').'" href="http://'.getURL('','path').'?s=grafis">
+              <a class="nav-link'.navbarMenuActive($urlQuery, 'grafis').'" href="http://'.getURL('','path').'?s=grafis">
                 <span data-feather="pen-tool"></span>
                 Desain Grafis
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link'.navbarMenuActive($link, 'office').'" href="http://'.getURL('','path').'?s=office">
+              <a class="nav-link'.navbarMenuActive($urlQuery, 'office').'" href="http://'.getURL('','path').'?s=office">
                 <span data-feather="file-text"></span>
                 Office
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link'.navbarMenuActive($link, 'jaringan').'" href="http://'.getURL('','path').'?s=jaringan">
+              <a class="nav-link'.navbarMenuActive($urlQuery, 'jaringan').'" href="http://'.getURL('','path').'?s=jaringan">
                 <span data-feather="cpu"></span>
                 Jaringan
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link'.navbarMenuActive($link, 'animasi').'" href="http://'.getURL('','path').'?s=animasi">
+              <a class="nav-link'.navbarMenuActive($urlQuery, 'animasi').'" href="http://'.getURL('','path').'?s=animasi">
                 <span data-feather="film"></span>
                 Animasi
               </a>
@@ -63,11 +63,6 @@ $navbar =
 $footer =
 '<footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
           <div class="col-md-4 d-flex align-items-center">
-            <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-              <svg class="bi" width="30" height="24">
-                <use xlink:href="#bootstrap"></use>
-              </svg>
-            </a>
             <span class="text-muted">&copy; 2021 SMK Negeri 1 Pemalang<br>Technology Community. All Rights Reserved</span>
           </div>
           <div class="col-md-4 d-flex align-items-center justify-content-end">

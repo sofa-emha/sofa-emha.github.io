@@ -1,10 +1,3 @@
-/**
- * function Nama(s,o,f,a,e,m,h,a) {
- *    var|let|const s,o,f,a,e,m,h,a;
- *    return sofaemha
- * }
- */
-
 function getQueryFromURL() {
   wls = window.location.search;
   usp = new URLSearchParams(wls);
@@ -24,27 +17,34 @@ function getDivisiFrom(data) {
         case "Office": office.push(jurusan); break;
         case "Jaringan": jaringan.push(jurusan); break;
         case "Animasi": animasi.push(jurusan); break;
-        default: false; break;
+        default: Alert_Warning.fire({
+          text: "Data tidak ditemukan!"
+        }); break;
       }
     }
   }
 }
 
-function countingPeopleFrom(s, o) {
-  let f = {}, a = 0; s.sort();
-  for (; a < s.length; a++) {
-    if (f[s[a]]) {
-      f[s[a]] += 1
+function countingPeopleFrom(divisi, label) {
+  let object = {}, i = 0; divisi.sort();
+  for (; i < divisi.length; i++) {
+    if (object[divisi[i]]) {
+      object[divisi[i]] += 1
     } else {
-      f[s[a]] = 1
+      object[divisi[i]] = 1
     }
   }
-  if (o === "Java") {java.length = 0; java.push(f);}
-  if (o === "Website") {website.length = 0; website.push(f);}
-  if (o === "Grafis") {grafis.length = 0; grafis.push(f);}
-  if (o === "Office") {office.length = 0; office.push(f);}
-  if (o === "Jaringan") {jaringan.length = 0; jaringan.push(f);}
-  if (o === "Animasi") {animasi.length = 0; animasi.push(f);}
+  switch (label) {
+    case "Java": java.length = 0; java.push(object); break;
+    case "Website": website.length = 0; website.push(object); break;
+    case "Grafis": grafis.length = 0; grafis.push(object); break;
+    case "Office": office.length = 0; office.push(object); break;
+    case "Jaringan": jaringan.length = 0; jaringan.push(object); break;
+    case "Animasi": animasi.length = 0; animasi.push(object); break;
+    default: Alert_Warning.fire({
+      text: "Data tidak ditemukan!"
+    }); break;
+  }
 }
 
 function splitDivisiToDataFrom(divisi) {

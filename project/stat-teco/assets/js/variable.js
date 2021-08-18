@@ -35,3 +35,12 @@ let
   label_jaringan = [],
   label_grafis = [],
   label_animasi = [];
+
+const
+  Alert_Warning = Swal.mixin({
+    icon: 'warning',
+    title: 'Warning!',
+    allowOutsideClick: false,
+    allowEscapeKey: false,
+    confirmButtonColor: '#007bff'
+  })

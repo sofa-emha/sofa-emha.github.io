@@ -24,50 +24,24 @@ function getURL($url, $value)
 
 function divisiDropDownMenu($value)
 {
-  if ($value) {
-    echo '<li><a class="dropdown-item" href="http://'. getURL('','path') .'">Semua Divisi</a></li>';
-  }
-  if ($value != 'java') {
-    echo '<li><a class="dropdown-item" href="http://'. getURL('','path') .'?s=java">Pemrograman Java</a></li>';
-  }
-  if ($value != 'website') {
-    echo '<li><a class="dropdown-item" href="http://'. getURL('','path') .'?s=website">Desain Website</a></li>';
-  }
-  if ($value != 'grafis') {
-    echo '<li><a class="dropdown-item" href="http://'. getURL('','path') .'?s=grafis">Desain Grafis</a></li>';
-  }
-  if ($value != 'office') {
-    echo '<li><a class="dropdown-item" href="http://'. getURL('','path') .'?s=office">Office</a></li>';
-  }
-  if ($value != 'jaringan') {
-    echo '<li><a class="dropdown-item"href="http://'. getURL('','path') .'?s=jaringan">Jaringan</a></li>';
-  }
-  if ($value != 'animasi') {
-    echo '<li><a class="dropdown-item" href="http://'. getURL('','path') .'?s=animasi">Animasi</a></li>';
-  }
+  $attr = '<li><a class="dropdown-item" href="http://';
+  if ($value) {echo $attr. getURL('','path') .'">Semua Divisi</a></li>';}
+  if ($value != 'java') {echo $attr. getURL('','path') .'?s=java">Pemrograman Java</a></li>';}
+  if ($value != 'website') {echo $attr. getURL('','path') .'?s=website">Desain Website</a></li>';}
+  if ($value != 'grafis') {echo $attr. getURL('','path') .'?s=grafis">Desain Grafis</a></li>';}
+  if ($value != 'office') {echo $attr. getURL('','path') .'?s=office">Office</a></li>';}
+  if ($value != 'jaringan') {echo $attr. getURL('','path') .'?s=jaringan">Jaringan</a></li>';}
+  if ($value != 'animasi') {echo $attr. getURL('','path') .'?s=animasi">Animasi</a></li>';}
 }
 
 function navbarMenuActive($url, $value)
 {
-  if ($url === 'java' && $value === 'java') {
-    return ' active" aria-current="page';
-  }
-  elseif ($url === 'website' && $value === 'website') {
-    return ' active" aria-current="page';
-  }
-  elseif ($url === 'grafis' && $value === 'grafis') {
-    return ' active" aria-current="page';
-  }
-  elseif ($url === 'office' && $value === 'office') {
-    return ' active" aria-current="page';
-  }
-  elseif ($url === 'jaringan' && $value === 'jaringan') {
-    return ' active" aria-current="page';
-  }
-  elseif ($url === 'animasi' && $value === 'animasi') {
-    return ' active" aria-current="page';
-  }
-  elseif ($url === null && $value === '') {
-    return ' active" aria-current="page';
-  }
+  $attr = ' active" aria-current="page';
+  if ($url === 'java' && $value === 'java') {return $attr;}
+  elseif ($url === 'website' && $value === 'website') {return $attr;}
+  elseif ($url === 'grafis' && $value === 'grafis') {return $attr;}
+  elseif ($url === 'office' && $value === 'office') {return $attr;}
+  elseif ($url === 'jaringan' && $value === 'jaringan') {return $attr;}
+  elseif ($url === 'animasi' && $value === 'animasi') {return $attr;}
+  elseif ($url === null && $value === '') {return $attr;}
 }
