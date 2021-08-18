@@ -43,22 +43,22 @@ require 'assets/php/run.php'
               $title_page = "Pendaftaran TECO Tahun 2021";
               switch ($urlQuery) {
                 case 'java':
-                  echo $title_page . " - Divisi Pemrograman Java";
+                  echo "Divisi Pemrograman Java";
                   break;
                 case 'website':
-                  echo $title_page . " - Divisi Desain Website";
+                  echo "Divisi Desain Website";
                   break;
                 case 'grafis':
-                  echo $title_page . " - Divisi Desain Grafis";
+                  echo "Divisi Desain Grafis";
                   break;
                 case 'office':
-                  echo $title_page . " - Divisi Office";
+                  echo "Divisi Office";
                   break;
                 case 'jaringan':
-                  echo $title_page . " - Divisi Jaringan";
+                  echo "Divisi Jaringan";
                   break;
                 case 'animasi':
-                  echo $title_page . " - Divisi Animasi";
+                  echo "Divisi Animasi";
                   break;
                 
                 default:
