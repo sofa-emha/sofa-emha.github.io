@@ -48,5 +48,5 @@ function countingPeopleFrom(divisi, label) {
 }
 
 function splitDivisiToDataFrom(divisi) {
-  
+  data_.push(Object.values)
 }

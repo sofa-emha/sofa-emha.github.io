@@ -1,4 +1,6 @@
 let
+  testing = [],
+
   divisi = [
     'Java',
     'Website',
@@ -34,7 +36,14 @@ let
   label_office = [],
   label_jaringan = [],
   label_grafis = [],
-  label_animasi = [];
+  label_animasi = []
+
+  data_java = [],
+  data_website = [],
+  data_office = [],
+  data_jaringan = [],
+  data_grafis = [],
+  data_animasi = [];
 
 const
   Alert_Warning = Swal.mixin({
