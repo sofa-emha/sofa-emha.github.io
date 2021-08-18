@@ -39,61 +39,28 @@ require 'assets/php/run.php'
 
         <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
           <h1 class="h2">
-            <?php
-              $title_page = "Pendaftaran TECO Tahun 2021";
+            <?php $title_page = "Pendaftaran TECO Tahun 2021";
               switch ($urlQuery) {
-                case 'java':
-                  echo "Divisi Pemrograman Java";
-                  break;
-                case 'website':
-                  echo "Divisi Desain Website";
-                  break;
-                case 'grafis':
-                  echo "Divisi Desain Grafis";
-                  break;
-                case 'office':
-                  echo "Divisi Office";
-                  break;
-                case 'jaringan':
-                  echo "Divisi Jaringan";
-                  break;
-                case 'animasi':
-                  echo "Divisi Animasi";
-                  break;
-                
-                default:
-                  echo $title_page;
-                  break;
+                case 'java': echo "Divisi Pemrograman Java"; break;
+                case 'website': echo "Divisi Desain Website"; break;
+                case 'grafis': echo "Divisi Desain Grafis"; break;
+                case 'office': echo "Divisi Office"; break;
+                case 'jaringan': echo "Divisi Jaringan"; break;
+                case 'animasi': echo "Divisi Animasi"; break;
+                default: echo $title_page; break;
               }
-            ?>
-          </h1>
+            ?></h1>
           <div class="btn-toolbar mb-2 mb-md-0">
             <button type="button" class="btn btn-sm btn-outline-secondary dropdown-toggle" id="divisi" data-bs-toggle="dropdown" aria-expanded="false">
               <?php switch ($urlQuery) {
-                case 'java':
-                  echo '<span data-feather="coffee"></span> &nbsp; Pemrograman Java';
-                  break;
-                case 'website':
-                  echo '<span data-feather="layout"></span> &nbsp; Desain Website';
-                  break;
-                case 'grafis':
-                  echo '<span data-feather="pen-tool"></span> &nbsp; Desain Grafis';
-                  break;
-                case 'office':
-                  echo '<span data-feather="file-text"></span> &nbsp; Office';
-                  break;
-                case 'jaringan':
-                  echo '<span data-feather="cpu"></span> &nbsp; Jaringan';
-                  break;
-                case 'animasi':
-                  echo '<span data-feather="film"></span> &nbsp; Animasi';
-                  break;
-
-                default:
-                  echo '<span data-feather="grid"></span> &nbsp; Semua Divisi';
-                  break;
-              } ?>
-            </button>
+                case 'java': echo '<span data-feather="coffee"></span> &nbsp; Pemrograman Java'; break;
+                case 'website': echo '<span data-feather="layout"></span> &nbsp; Desain Website'; break;
+                case 'grafis': echo '<span data-feather="pen-tool"></span> &nbsp; Desain Grafis'; break;
+                case 'office': echo '<span data-feather="file-text"></span> &nbsp; Office'; break;
+                case 'jaringan': echo '<span data-feather="cpu"></span> &nbsp; Jaringan'; break;
+                case 'animasi': echo '<span data-feather="film"></span> &nbsp; Animasi'; break;
+                default: echo '<span data-feather="grid"></span> &nbsp; Semua Divisi'; break;
+              } ?></button>
             <ul class="dropdown-menu" aria-labelledby="divisi">
               <?php divisiDropDownMenu($urlQuery); ?>
             </ul>
