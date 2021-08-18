@@ -1,30 +1,42 @@
+/**
+ * function Nama(s,o,f,a,e,m,h,a) {
+ *    var|let|const s,o,f,a,e,m,h,a;
+ *    return sofaemha
+ * }
+ */
+
 function getQueryFromURL() {
   wls = window.location.search;
   usp = new URLSearchParams(wls);
   return usp.get('s');
 }
 
-function getDivisiFrom(s) {
-  for (const o in s) {
-    if (Object.hasOwnProperty.call(s, o)) { const
-      f = s[o], a = f['Kompetensi Keahlian'], e = f['Divisi'];
-      if (e === "Office") {office.push(a)}
-      if (e === "Website") {website.push(a)}
-      if (e === "Jaringan") {jaringan.push(a)}
-      if (e === "Animasi") {animasi.push(a)}
-      if (e === "Pemrograman Java") {java.push(a)}
-      if (e === "Desain Grafis") {grafis.push(a)}
+function getDivisiFrom(data) {
+  for (const key in data) {
+    if (Object.hasOwnProperty.call(data, key)) { const
+      object = data[key],
+      jurusan = object['Kompetensi Keahlian'],
+      divisi = object['Divisi'];
+      switch (divisi) {
+        case "Pemrograman Java": java.push(jurusan); break;
+        case "Website": website.push(jurusan); break;
+        case "Desain Grafis": grafis.push(jurusan); break;
+        case "Office": office.push(jurusan); break;
+        case "Jaringan": jaringan.push(jurusan); break;
+        case "Animasi": animasi.push(jurusan); break;
+        default: false; break;
+      }
     }
   }
 }
 
 function countingPeopleFrom(s, o) {
-  let f = {}; s.sort();
-  for (let i = 0; i < s.length; i++) {
-    if (f[s[i]]) {
-      f[s[i]] += 1
+  let f = {}, a = 0; s.sort();
+  for (; a < s.length; a++) {
+    if (f[s[a]]) {
+      f[s[a]] += 1
     } else {
-      f[s[i]] = 1
+      f[s[a]] = 1
     }
   }
   if (o === "Java") {java.length = 0; java.push(f);}
