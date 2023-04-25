@@ -4,7 +4,7 @@ import { Container } from "@/components/Container";
 
 async function Content() {
 	let resource = []
-	const octokit = new Octokit({ auth: `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` })
+	const octokit = new Octokit({ auth: process.env.GITHUB_AUTH_TOKEN })
 	const getProject = await octokit.request("GET /users/sofaemha/repos")
 	const Project = (getProject.status === 200) ? getProject.data : ['']
 	Project.map((data) => {
