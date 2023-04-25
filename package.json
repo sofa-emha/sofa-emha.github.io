@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@loadable/component": "^5.15.3",
-    "@next/swc-win32-x64-msvc": "^13.3.1",
     "@octokit/core": "^4.2.0",
     "autoprefixer": "10.4.14",
     "clsx": "^1.2.1",
@@ -20,6 +19,6 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
-    "tailwindcss": "3.3.1"
+    "tailwindcss": "^2.2.2"
   }
 }
