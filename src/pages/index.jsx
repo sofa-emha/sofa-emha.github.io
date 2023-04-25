@@ -22,41 +22,6 @@ export default function Index() {
 		})
 	},[])
 
-	let root = [
-		{
-			type: 'folder',
-			folderName: 'Important work stuff',
-			files: [
-				{ type: 'file', fileName: 'quarterly-results.xlsx' }
-			]
-		},
-		{
-			type: 'folder',
-			folderName: 'Animal GIFs',
-			files: [
-				{
-					type: 'folder',
-					folderName: 'Dogs',
-					files: [
-						{ type: 'file', fileName: 'treadmill.gif' },
-						{ type: 'file', fileName: 'rope-jumping.gif' }
-					]
-				},
-				{
-					type: 'folder',
-					folderName: 'Goats',
-					files: [
-						{ type: 'file', fileName: 'parkour.gif' },
-						{ type: 'file', fileName: 'rampage.gif' }
-					]
-				},
-				{ type: 'file', fileName: 'cat-roomba.gif' },
-				{ type: 'file', fileName: 'duck-shuffle.gif' },
-				{ type: 'file', fileName: 'monkey-on-a-pig.gif' }
-			]
-		},
-		{ type: 'file', fileName: 'TODO.md' }
-	];
   return (
 		<>
 			<Container className="mt-16 sm:mt-32">
@@ -70,8 +35,8 @@ export default function Index() {
       <Container className="mt-5">
         <div className="grid max-w-xl gap-4 sm:grid-cols-2 lg:max-w-none">
 					{
-						data.map((item, index) => (
-							<div className="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-zinc-800 dark:border-zinc-700">
+						data.map((item) => (
+							<div key={item.id} className="p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-zinc-800 dark:border-zinc-700">
 								<h5 className="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{item.name}</h5>
 								<p className="mb-3 font-normal text-gray-500 dark:text-gray-400">{item.description}</p>
 								{
