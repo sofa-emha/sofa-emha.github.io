@@ -15,10 +15,12 @@ async function Content() {
 
 export default function Index() {
 	const [data, setData] = useState([])
+  const [loading, setLoading] = useState(true)
 
 	useEffect(() => {
 		Content().then(data => {
 			setData(data)
+      setLoading(false)
 		})
 	},[])
 
@@ -34,8 +36,7 @@ export default function Index() {
 			
       <Container className="mt-5">
         <div className="grid max-w-xl gap-4 sm:grid-cols-2 lg:max-w-none">
-					{ (data)
-						? (
+					{ (loading) ? (
 							<>
 								<div key="dummy1" className="p-6 rounded-lg shadow bg-zinc-800 border-zinc-700 animate-pulse">
 									<div className="mb-2 h-2.5 w-48 rounded-full bg-white/90"></div>
@@ -67,23 +68,24 @@ export default function Index() {
 									</a>
 								</div>
 							</>
+						) : (
+							data.map((item) => (
+								<div key={item.id} className="p-6 rounded-lg shadow bg-zinc-800 border-zinc-700">
+									<h5 className="mb-2 text-2xl font-semibold tracking-tight text-white">{item.name}</h5>
+									<p className="mb-3 font-normal text-gray-400">{item.description}</p>
+									{
+										item.pages && (
+											<a href={`https://github.sofa.my.id/${item.name}`} className="inline-flex py-2 px-5 mr-2 border border-zinc-700 rounded-md bg-zinc-700 items-center text-white">
+												Preview
+											</a>
+										)
+									}
+									<a href={`https://github.com/sofaemha/${item.name}`} className="inline-flex py-2 px-5 border border-zinc-700 rounded-md bg-zinc-700 items-center text-white">
+										Repository
+									</a>
+								</div>
+							))
 						)
-						: data.map((item) => (
-							<div key={item.id} className="p-6 rounded-lg shadow bg-zinc-800 border-zinc-700">
-								<h5 className="mb-2 text-2xl font-semibold tracking-tight text-white">{item.name}</h5>
-								<p className="mb-3 font-normal text-gray-400">{item.description}</p>
-								{
-									item.pages && (
-										<a href={`https://github.sofa.my.id/${item.name}`} className="inline-flex py-2 px-5 mr-2 border border-zinc-700 rounded-md bg-zinc-700 items-center text-white">
-											Preview
-										</a>
-									)
-								}
-								<a href={`https://github.com/sofaemha/${item.name}`} className="inline-flex py-2 px-5 border border-zinc-700 rounded-md bg-zinc-700 items-center text-white">
-									Repository
-								</a>
-							</div>
-						))
 					}
 				</div>
 			</Container>
