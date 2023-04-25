@@ -6,7 +6,7 @@ export default function App({ Component, pageProps, router }) {
     <>
       <div className="fixed inset-0 flex justify-center sm:px-8">
         <div className="flex w-full max-w-5xl lg:px-8">
-          <div className="w-full bg-white ring-1 ring-zinc-100 transition-all duration-500 dark:bg-zinc-900 dark:ring-zinc-300/20" />
+          <div className="w-full ring-1 transition-all duration-500 bg-zinc-900 ring-zinc-300/20" />
         </div>
       </div>
       <div className="relative">
