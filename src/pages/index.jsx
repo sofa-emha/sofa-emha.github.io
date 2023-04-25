@@ -45,10 +45,10 @@ export default function Index() {
 										<div className="mb-2.5 h-2 w-[50%] max-w-[330px] rounded-full bg-gray-400/90"></div>
 									</p>
 									
-									<a href={`https://github.sofa.my.id/${item.name}`} className="inline-flex py-2 px-5 mr-2 border border-zinc-700 rounded-md bg-zinc-700 items-center">
+									<a className="inline-flex py-2 px-5 mr-2 border border-zinc-700 rounded-md bg-zinc-700 items-center">
 										<div className="h-2 w-48 rounded-full bg-white"></div>
 									</a>
-									<a href={`https://github.com/sofaemha/${item.name}`} className="inline-flex py-2 px-5 border border-zinc-700 rounded-md bg-zinc-700 items-center">
+									<a className="inline-flex py-2 px-5 border border-zinc-700 rounded-md bg-zinc-700 items-center">
 										<div className="h-2 w-48 rounded-full bg-white"></div>
 									</a>
 								</div>
@@ -59,11 +59,10 @@ export default function Index() {
 										<div className="mb-2.5 h-2 w-[80%] rounded-full bg-gray-400/90"></div>
 										<div className="mb-2.5 h-2 w-[50%] max-w-[330px] rounded-full bg-gray-400/90"></div>
 									</p>
-									
-									<a href={`https://github.sofa.my.id/${item.name}`} className="inline-flex py-2 px-5 mr-2 border border-zinc-700 rounded-md bg-zinc-700 items-center">
+									<a className="inline-flex py-2 px-5 mr-2 border border-zinc-700 rounded-md bg-zinc-700 items-center">
 										<div className="h-2 w-48 rounded-full bg-white"></div>
 									</a>
-									<a href={`https://github.com/sofaemha/${item.name}`} className="inline-flex py-2 px-5 border border-zinc-700 rounded-md bg-zinc-700 items-center">
+									<a className="inline-flex py-2 px-5 border border-zinc-700 rounded-md bg-zinc-700 items-center">
 										<div className="h-2 w-48 rounded-full bg-white"></div>
 									</a>
 								</div>
