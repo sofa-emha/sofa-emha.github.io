@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { Octokit } from "@octokit/core";
 import { useState, useEffect } from "react";
 import { Container } from "@/components/Container";
