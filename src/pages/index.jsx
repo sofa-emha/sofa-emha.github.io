@@ -70,14 +70,14 @@ export default function Index() {
 									<p className="mb-3 font-normal text-gray-400">{item.description}</p>
 									{
 										item.pages && (
-											<Link href={`https://github.sofa.my.id/${item.name}`} replace className="inline-flex py-2 px-5 mr-2 border border-zinc-700 rounded-md bg-zinc-700 items-center text-white">
+											<a href={`https://github.sofa.my.id/${item.name}`} target="_blank" rel="noopener noreferrer" className="inline-flex py-2 px-5 mr-2 border border-zinc-700 rounded-md bg-zinc-700 items-center text-white">
 												Preview
-											</Link>
+											</a>
 										)
 									}
-									<Link href={`https://github.com/sofaemha/${item.name}`} replace className="inline-flex py-2 px-5 border border-zinc-700 rounded-md bg-zinc-700 items-center text-white">
+									<a href={`https://github.com/sofaemha/${item.name}`} target="_blank" rel="noopener noreferrer" className="inline-flex py-2 px-5 border border-zinc-700 rounded-md bg-zinc-700 items-center text-white">
 										Repository
-									</Link>
+									</a>
 								</div>
 							))
 						)
