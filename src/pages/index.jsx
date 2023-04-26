@@ -39,7 +39,7 @@ export default function Index() {
 					{ (loading) ? (
 							<>
 								{
-									Array(6).map(index => (
+									Array(6).fill(0).map(index => (
 										<div key={`dummy${index}`} className="p-6 rounded-lg shadow bg-zinc-800 border-zinc-700 animate-pulse">
 											<div className="mb-2 h-2.5 w-48 rounded-full bg-zinc-100"></div>
 											<p className="mb-3">
