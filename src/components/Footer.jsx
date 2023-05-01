@@ -1,13 +1,4 @@
-import Link from 'next/link'
 import { Container } from '@/components/Container'
-
-function NavLink({ href, children }) {
-  return (
-    <Link href={href} className="transition-all hover:text-blue-500">
-      {children}
-    </Link>
-  )
-}
 
 export function Footer() {
   return (

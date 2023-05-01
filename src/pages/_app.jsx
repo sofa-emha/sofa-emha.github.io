@@ -1,7 +1,7 @@
 import '@/styles/globals.css'
 import { Footer } from '@/components/Footer'
 
-export default function App({ Component, pageProps, router }) {
+export default function App({ Component, pageProps }) {
   return (
     <>
       <div className="fixed inset-0 flex justify-center sm:px-8">
