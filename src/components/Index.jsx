@@ -5,7 +5,7 @@ export function Skeleton() {
 				Array(6).fill(0).map(index => (
 					<div key={`dummy${index}`} className="p-6 rounded-lg shadow bg-zinc-800 border-zinc-700 animate-pulse">
 						<div className="mb-2 h-2.5 w-48 rounded-full bg-zinc-100"></div>
-						<p className="mb-3">
+						<p className="my-3">
 							<div className="mb-2.5 h-2 w-full max-w-[360px] rounded-full bg-gray-400/90"></div>
 							<div className="mb-2.5 h-2 w-[80%] rounded-full bg-gray-400/90"></div>
 							<div className="mb-2.5 h-2 w-[50%] max-w-[330px] rounded-full bg-gray-400/90"></div>
